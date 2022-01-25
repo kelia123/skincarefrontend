@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    height: 20vh;
+    background-color: chartreuse;
+    width: 100%;
+    display: flex;
+}
+.menu{
+    font-size: 200%;
+    margin-left: 2.5%;
+    margin-top: 1.5%;
+}
+.logo{
+    width: 40%;
+    height: 20vh;
+    background-image: url(../Assets/img/logo.png) ;
+    background-size: cover;
+    background-color: darkblue;
+    margin-left: 25%;
+}
+.rightcorner{
+    display: flex;
+    background-color: chocolate;
+    margin-left: 20%;
+    justify-content: space-evenly;
+    width: 20%;
+}
+.signupdiv{
+    color: black;
+}
