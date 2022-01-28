@@ -1,0 +1,38 @@
+.signin{
+    background-color: gray;
+    width: 45%;
+    height: 70vh;
+    margin-Left: 400px;
+    border-radius: 50px;
+    box-shadow: 0px 0px 0px 12px white;
+    margin-top: 20px;
+    
+}
+.signin input{
+    margin-left:130px ;
+    width: 50%;
+    height:5vh ;
+    margin-top:40px ;
+    border-radius:30px ;
+   
+}
+.signin h1{
+    text-align: center;
+    
+}
+.signin button{
+    margin-left:200px ;
+    width: 25%;
+    height:5vh ;
+    margin-top:40px ;
+    border-radius:30px ;
+       
+}
+.signin a{
+    margin-left: 160px;
+    margin-top: 20px;
+ }
+ .signin p{
+     margin-left:140px;
+     margin-top: 0px;
+ }

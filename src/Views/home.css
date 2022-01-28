@@ -2,32 +2,98 @@
     margin: 0;
     padding: 0;
 }
-.header{
-    height: 20vh;
-    /* background-color: chartreuse; */
+.modeldiv{
+
     width: 100%;
+    height: 860px;
+    background-color: rgba(210, 160, 122, 1);
     display: flex;
 }
-.menu{
-    font-size: 200%;
-    margin-left: 2.5%;
-    margin-top: 1.5%;
-}
-.logo{
-    width: 40%;
-    height: 20vh;
-    background-image: url(../Assets/img/logo.png) ;
+.firstimage{
+    width: 350px;
+    height: 400px;
+    /* background-color: chartreuse; */
+    background-image: url(../Assets/img/products2.jpg);
     background-size: cover;
+    margin-left: 50px;
+    margin-top: 350px;
+}
+.secondimage{
+    width: 350px;
+    height: 400px;
+    /* background-color: purple; */
+    background-image: url(../Assets/img/Products1.jpg);
+    background-size: cover;
+    margin-top: 80px;
+    margin-left: -50px;
+}
+.model{
+    width: 500px;
+    height: 700px;
+    /* background-color: tomato; */
+    background-image: url(../Assets/img/model.png);
+    background-size: cover;
+
     /* background-color: darkblue; */
     margin-left: 25%;
+
+    margin-left: 140px;
+    margin-top: 160px; 
 }
-.rightcorner{
+.shopourproducts{
+    height: 8vh;
+    width: 200px;
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 430px;
+    margin-top: -150px;
+}
+.shopourproducts h1{
+    font-size: 15px;
+    padding-top: 10px;
+    text-align: center;
+
+}
+.divtwo{
     display: flex;
+
     /* background-color: chocolate; */
     margin-left: 20%;
     justify-content: space-evenly;
     width: 20%;
+
+    margin-top: 104.5px;
+
 }
-.signupdiv{
-    color: black;
+.words{
+    background-color: chartreuse;
+    height: 50vh;
+    width: 30%;
+    margin-left: 40px;
+    margin-top: 90px;
+}
+.words h1{
+    font-size: 20px;
+    text-align: center;
+    padding-top: 30px;
+}
+.words p{
+    text-align: center;
+    padding-top: 30px;
+    font-weight: lighter;
+}
+.photos{
+    height: 80vh;
+    width: 55%;
+    background-color: darkred;
+    margin-left: 100px;
+}
+.photo1{
+    height: 60vh;
+    width: 250px;
+    background-color: darksalmon;
+    margin-left: 50px;
+    margin-top: 65px;
+    background-image: url(../Assets/img/soap.jpg);
+    background-size: cover;
 }
