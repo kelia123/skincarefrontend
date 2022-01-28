@@ -27,7 +27,7 @@ const Cart=()=> {
          <h3 style={{textAlign:"center"}}> Order Summary</h3> <br/>
          <div className="subtotal">
          <p>SubTotal</p>
-         <p> 5000 Rwf</p>
+         <p> 5000Rwf</p>
          </div><br/>
          
              <button style={{textAlign:"center",width:"70%",height:"7vh",margin:"15px",backgroundColor:"rgba(210, 160, 122, 1)",borderRadius:"10px",border:"none"}}>CHECKOUT SECURELY NOW</button>
