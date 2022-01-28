@@ -25,9 +25,20 @@
     display: flex;
     background-color: chocolate;
     margin-left: 20%;
-    justify-content: space-evenly;
+    /* justify-content: space-evenly; */
     width: 20%;
 }
 .signupdiv{
-    color: black;
+    background-color: black;
+    height: 5vh;
+    width: 60px;
+    margin-top: 3vh;
+    margin-left: 2vh;
+}
+.signindiv{
+    background-color: grey;
+    height: 5vh;
+    width: 60px;
+    margin-top: 3vh;
+    margin-left: 1vh;
 }
