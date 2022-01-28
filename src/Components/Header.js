@@ -21,7 +21,6 @@ const Header=()=>{
                 <div className="ourstorydiv"><a href="/ourstory">Our story</a></div>
                 <div className="shopalldiv"><a href="/shopall">Shop All</a></div>
                 <div className="contactusdiv"><a href="/contactus">Contact Us</a></div>
-
         </div>
         </div>
         </>
