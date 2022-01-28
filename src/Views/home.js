@@ -2,8 +2,33 @@ import React from "react";
 import "./Home.css"
 import HomeLayout from "../Components/HomeLayout";
 
+
+
+
+
 const Home=()=>{
     return(
+
+    
+        <>
+      
+        <div className="header">
+           
+            <div className="menu"> <MenuOutlined /> </div>
+            <div className="logo"></div>
+            <div className="rightcorner">
+                <div className="signupdiv"><a href="/signup">Sign up</a> </div>
+                <div className="signindiv"><a href="/signin">Sign in</a> </div>
+                <div className="order"> <ShoppingCartOutlined /> </div>
+             
+            </div>
+                  
+        </div>
+        
+    
+         </>
+    )
+
        <HomeLayout>
            <div className="homepage">
                <div className="modeldiv">
@@ -30,5 +55,6 @@ const Home=()=>{
            </div>
        </HomeLayout>
     );
+
 }
 export default Home ;
