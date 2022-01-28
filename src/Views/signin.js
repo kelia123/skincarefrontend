@@ -1,7 +1,7 @@
 import React from "react";
 import "./signin.css";
-// import {MailOutlined} from "@ant-design/icons
-// import {MailOutlined } from '@ant-design/icons';
+  //import {MailOutlined} from "@ant-design/icons"
+// import {MailOutli} from '@ant-design/icons';
 
 const SignIn=()=>{
     return(
@@ -9,8 +9,9 @@ const SignIn=()=>{
           <div className="signin">
           
         <h1>Sign In </h1>
-        
-        <input type="text" placeholder="Email" name="Email" ></input>
+{/*         
+          <input type="text"  placeholder="Email" name="Email" required > </input> */}
+          <input type="text"placeholder="Email"name="Email"required></input>
         <input type="pasword"placeholder="password" name="pwd" required></input>
           
        <label>
