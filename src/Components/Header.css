@@ -2,9 +2,7 @@
     margin: 0;
     padding: 0;
 }
-.headerdiv{
-    /* position: fixed; */
-}
+
 .header{
     height: 20vh;
     background-color: white;
@@ -17,7 +15,7 @@
     margin-top: 1.5%;
 }
 .logo{
-    width: 40%;
+    width: 60%;
     height: 20vh;
     background-image: url(../Assets/img/logo.png) ;
     background-size: cover;
