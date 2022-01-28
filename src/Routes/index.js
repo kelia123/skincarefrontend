@@ -1,6 +1,5 @@
 import React from "react";
-import Home from "../Components/home";
-// import ReactDOM  from 'react-dom';
+import Home from "../Views/home";
 import {Routes, Route} from "react-router-dom";
 import Order from "../Views/order";
 import EmptyCart from "../Views/EmptyCart"
