@@ -4,7 +4,7 @@
 }
 .header{
     height: 20vh;
-    background-color: chartreuse;
+    /* background-color: chartreuse; */
     width: 100%;
     display: flex;
 }
@@ -18,12 +18,12 @@
     height: 20vh;
     background-image: url(../Assets/img/logo.png) ;
     background-size: cover;
-    background-color: darkblue;
+    /* background-color: darkblue; */
     margin-left: 25%;
 }
 .rightcorner{
     display: flex;
-    background-color: chocolate;
+    /* background-color: chocolate; */
     margin-left: 20%;
     justify-content: space-evenly;
     width: 20%;
