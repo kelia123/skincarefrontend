@@ -1,0 +1,68 @@
+.shop-container{
+    background-size: cover;
+    background-attachment:fixed;
+}
+.wallpaper{
+    
+    height: 130vh;
+    width: 100%;
+}
+.wallpaper img{
+    background-size: cover;
+    height: 140vh;
+    width: 100%;
+}
+
+.products{
+    height:250vh;
+    width:100%;
+    color:white;
+}
+
+.products h1{
+    color: black;
+    margin-top: 120px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+}
+.bodyScrubs{
+/* height: 65vh; */
+/* background-color: rgb(74, 133, 160); */
+display: flex;
+flex-wrap: wrap;
+}
+.titles{
+    color:black;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    font-size: 22px;
+    margin-left: 600px;
+    margin-top: 35px;
+}
+.container{
+    width: 23%;
+    background-color: rgb(177, 17, 115);
+    color: white;
+    height: 40vh;
+    margin-top: 150px;
+    margin-left: 110px;
+    position: relative;
+}
+.container img{
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+}
+.container p{
+    margin-top: 10px;
+    font-size: large;
+    text-align: center;
+    color: black;
+}
+.container h3{
+    text-align: center;
+    color: black;
+
+}
+
