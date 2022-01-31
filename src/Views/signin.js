@@ -1,11 +1,12 @@
 import React from "react";
 import "./signin.css";
+import HomeLayout from "../Components/HomeLayout";
   //import {MailOutlined} from "@ant-design/icons"
 // import {MailOutli} from '@ant-design/icons';
 
 const SignIn=()=>{
     return(
-        <>
+        <HomeLayout>
           <div className="signin">
           
         <h1>Sign In </h1>
@@ -23,7 +24,7 @@ const SignIn=()=>{
 
           </div>
 
-    </>
+    </HomeLayout>
     )
    
 }
