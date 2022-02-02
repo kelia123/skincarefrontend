@@ -12,12 +12,13 @@ import SignIn from "../Views/signin";
 
 //import Home from "../Views/Home";
 // import ReactDOM  from 'react-dom';
-import {Routes, Route} from "react-router-dom";
+
 import ContactUs from "../Views/ContactUs ";
 
 // import ReactDOM  from 'react-dom';
 
 import ShopAll from "../Views/shopAll";
+import MessageReply from "../Views/MessageReply";
 
 
 
@@ -39,7 +40,7 @@ const Index=()=>{
             <Route exact path="/signin" element={<SignIn/>}></Route>
 
             <Route exact path="/ContactUs"element={<ContactUs/>}></Route>
-
+            <Route exact path="MessageReply"element={<MessageReply/>}></Route>
 
 
 
