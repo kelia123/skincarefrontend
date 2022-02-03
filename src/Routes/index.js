@@ -5,18 +5,18 @@ import Order from "../Views/order";
 import EmptyCart from "../Views/EmptyCart"
 import Cart from "../Views/Cart"
 import SignUp from"../Views/signup";
-// import DashLayout from "../Components/DashLayout";
+import DashLayout from "../Components/DashLayout";
 import ShopAll from "../Views/shopAll";
-// import LatestOrdersView from "../Views/Dashboard/LatestOrders";
-// import Customers from "../Views/Dashboard/UsersDash";
+import LatestOrdersView from "../Views/Dashboard/LatestOrders";
+import Customers from "../Views/Dashboard/UsersDash";
 
 
 
 
-// const  isUserLogedIn = localStorage.getItem("userLogedIn");
+
 
 const Index=()=>{
-    // const currentUrl= useLocation().pathname;
+    
     return(
         <>
         <Routes>
@@ -31,17 +31,17 @@ const Index=()=>{
 
         </Routes>
     
-        {/* {
-    isUserLogedIn  && currentUrl.includes("/dash") ?(
+        {
+   
         <DashLayout>
             <Routes>
                 <Route path="/dash/LatestOrdersView" element={<LatestOrdersView/>}></Route>
                 <Route path="/dash/Customers" element={<Customers/>}></Route>
                 
             </Routes>
-        </DashLayout>  )
-   :(<></>)
-    } */}
+        </DashLayout>  
+  
+    }
     </>
 
         

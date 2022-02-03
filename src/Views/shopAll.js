@@ -16,7 +16,7 @@ const ShopAll=()=>{
     <div className="products"> 
  <h1> Our collections</h1>
  <div className="bodyScrubs">
-     {/* <h2 className="titles">Body scrubs</h2> */}
+     
 {products.map ((products)=>(
      <div className="container">
          <img src={products.picture} alt=""/>
