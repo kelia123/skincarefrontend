@@ -1,0 +1,31 @@
+/* @import "./variables"; */
+
+.OrderSlider{
+    display:flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 10px;
+}
+.OrderSlider-SingleSlider{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 10px 15px;
+}    
+.OrderSlider-Slider {
+     display: grid;
+     height: 34rem;
+     grid-template-columns: 1fr 5fr 1fr;
+     cursor: pointer;
+     transition: all 2s;
+ 
+}
+.OrderSlider-Slider:hover{
+    transition: translateY(-2px);
+}
+
+.OrderSlider-container{
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 5fr 1fr;
+}

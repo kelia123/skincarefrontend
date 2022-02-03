@@ -1,9 +1,14 @@
 import React from "react";
-import "./Home.css"
+import "./home.css"
 import HomeLayout from "../Components/HomeLayout";
+
+
+
+
 
 const Home=()=>{
     return(
+   
        <HomeLayout>
            <div className="homepage">
                <div className="modeldiv">
@@ -30,5 +35,6 @@ const Home=()=>{
            </div>
        </HomeLayout>
     );
+
 }
 export default Home ;
