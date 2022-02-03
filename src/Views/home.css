@@ -51,12 +51,13 @@
 .divtwo{
     display: flex;
     margin-top: 104.5px;
+    height: 90vh;
 }
 .words{
-    background-color: chartreuse;
+    /* background-color: chartreuse; */
     height: 50vh;
     width: 30%;
-    margin-left: 40px;
+    margin-left: 80px;
     margin-top: 90px;
 }
 .words h1{
@@ -72,8 +73,9 @@
 .photos{
     height: 80vh;
     width: 55%;
-    background-color: darkred;
+    /* background-color: darkred; */
     margin-left: 100px;
+    display: flex;
 }
 .photo1{
     height: 60vh;
@@ -82,5 +84,23 @@
     margin-left: 50px;
     margin-top: 65px;
     background-image: url(../Assets/img/soap.jpg);
+    background-size: cover;
+}
+.photo2{
+    height: 45vh;
+    width: 300px;
+    background-color: black;
+    margin-left: -20px;
+    margin-top: 35px;
+    background-image: url(../Assets/img/bodybutter1.jpg);
+    background-size: cover;
+}
+.photo3{
+    height: 40vh;
+    width: 250px;
+    background-color: darksalmon;
+    margin-left: -280px;
+    margin-top: 250px;
+    background-image: url(../Assets/img/serum1.jpg);
     background-size: cover;
 }

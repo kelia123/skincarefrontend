@@ -1,6 +1,4 @@
 import React from "react";
-
-import Home from "../Views/home";
 import SignUp from"../Views/signup";
 import SignIn from "../Views/signin";
 import Home from "../Views/Home";
