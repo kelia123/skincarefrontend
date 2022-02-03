@@ -20,7 +20,7 @@ const Order=()=> {
       <div className="shop-Order">
           <a href="/shopAll"><button> Shop Now</button></a>
       </div><br/>
-         <p style={{padding:"30px",color: "black",marginbottom:"5px",marginRight:"10px"}}> You might like to fill your Cart with: </p>
+         <p style={{padding:"30px",color: "black",marginbottom:"5px",marginRight:"10px"}}> You might like to fill your Cart with this: </p>
      
    
       
