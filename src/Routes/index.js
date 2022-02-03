@@ -1,23 +1,15 @@
 import React from "react";
-
-import Home from "../Views/home";
-
 import {Routes, Route} from "react-router-dom";
 import Order from "../Views/order";
+import Home from "../Views/Home";
 import EmptyCart from "../Views/EmptyCart"
 import Cart from "../Views/Cart"
-
 import SignUp from"../Views/signup";
 import SignIn from "../Views/signin";
-
-//import Home from "../Views/Home";
-// import ReactDOM  from 'react-dom';
-
 import ContactUs from "../Views/ContactUs ";
-
-// import ReactDOM  from 'react-dom';
-
 import ShopAll from "../Views/shopAll";
+import OurStory from "../Views/ourStory";
+import RegisterProduct from "../Views/Dashboard/registerProduct";
 import MessageReply from "../Views/MessageReply";
 
 
@@ -35,12 +27,13 @@ const Index=()=>{
 
 
             <Route exact path="/shopAll" element={<ShopAll/>}/>
-
+            <Route path="/ourStory" element={<OurStory/>}/>                                
             <Route exact path="/signup" element={<SignUp/>}></Route>
             <Route exact path="/signin" element={<SignIn/>}></Route>
-
+            <Route exact path="/dashboard" element={<RegisterProduct/>}/>
             <Route exact path="/ContactUs"element={<ContactUs/>}></Route>
             <Route exact path="MessageReply"element={<MessageReply/>}></Route>
+
 
 
 

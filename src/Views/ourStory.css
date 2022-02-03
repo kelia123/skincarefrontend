@@ -1,0 +1,61 @@
+.ourStory-container{
+background-size: cover;
+    background-attachment:fixed;
+}
+.background{
+    background-color: rgba(210, 160, 122, 1);
+    height: 103vh;
+}
+.background img{
+ width: 33%;
+ height: 103vh;
+ margin-left: 67%;
+ /* margin-top: 30px; */
+}
+.description{
+    padding: 60px;
+    background-color: white;
+    height: 27vh;
+    width:28%;
+    margin-top: -450px;
+    margin-left: 9% ;
+    text-align: center;
+}
+.reviews{
+    height: 160vh;
+    background-color: white;
+}
+.reviews h1{
+    color: black;
+    margin-top: 50px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+}
+.review-container{
+    margin-top: 100px;
+}
+.single-review{
+    height: 37vh;
+    /* background-color: black; */
+    margin-top: -40px;
+    padding: 40px;
+    display: flex;
+    color: black;
+}
+.single-review img{
+width: 27%;
+height: 85%;
+object-fit: cover;
+margin-left: 35px;
+
+}
+.message{
+    margin-left:120px;
+    width:55%;
+    padding: 30px;
+    
+}
+.message p{
+    margin-top: 20px;
+}

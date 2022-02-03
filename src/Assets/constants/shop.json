@@ -1,5 +1,6 @@
 [
-    {
+
+   {  
        "name":"Cofee body scrub",
        "description":"Caffeine in coffee  dilate blood vessels and heal dimples",
        "picture":" https://beautycrafter.com/wp-content/uploads/2021/01/diy-coffee-scrub-1.jpg",
@@ -20,7 +21,7 @@
         "price":"5000 RWF"
  
      },
-
+     
      {
         "name":"Shea butter",
         "description":"Treat skin swelling conditionslike eczema Soften skin",
