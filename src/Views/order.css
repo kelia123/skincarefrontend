@@ -7,23 +7,31 @@
     /* background: cyan; */
     padding: 50px;
 }
+.OrderUnderliner{
+    display: block;
+    margin-top: 2px;
+    border-bottom: 1px solid;
+    color: black;
+}
 .signin-Order button {
     border-radius: 10px;
     border:none;
     width: 15%;
-    font-size: 20px;
+    font-size: 15px;
     background: rgba(210, 160, 122, 1);
     text-align: center;
-    height: 7vh;
+    color: black;
+    height: 6vh;
     margin-top: 25px;
 }
 .shop-Order button {
     border-radius: 10px;
     border: none;
     width: 15%;
-    font-size: 20px;
+    font-size: 15px;
     text-align: center;
+    color: black;
     background: rgba(210, 160, 122, 1);
-    height: 7vh;
+    height: 6vh;
     margin-top: 40px;
 }

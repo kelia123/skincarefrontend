@@ -35,6 +35,7 @@
     width: 60px;
     margin-top: 5vh;
     margin-left: -5vh;
+    cursor:pointer;
 }
 .signupdiv a{
     color: black;
@@ -47,6 +48,7 @@
     width: 60px;
     margin-top: 5vh;
     margin-left: 3vh;
+    cursor:pointer;
 }
 .signindiv a{
     color: black;
@@ -57,6 +59,7 @@
     font-size: 200%;
     margin-left: 3%;
     margin-top: 3vh;
+    cursor:pointer;
 }
 .navbar{
     display: flex;
@@ -67,6 +70,7 @@
 .homediv{
     margin-left: 27.5%;
     margin-top: 4vh;
+    cursor:pointer;
 }
 .homediv a{
     color: black;
@@ -76,6 +80,7 @@
 .ourstorydiv{
     margin-left: 100px;
     margin-top: 4vh;
+    cursor:pointer;
 }
 .ourstorydiv a{
     color: black;
@@ -85,6 +90,7 @@
 .shopalldiv{
     margin-left: 100px;
     margin-top: 4vh;
+    cursor:pointer;
 }
 .shopalldiv a{
     color: black;
@@ -94,6 +100,7 @@
 .contactusdiv{
     margin-left: 100px;
     margin-top: 4vh;
+    cursor:pointer;
 }
 .contactusdiv a{
     color: black;

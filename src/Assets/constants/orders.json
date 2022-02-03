@@ -1,0 +1,33 @@
+[
+   {
+    "Lastname":"Kelia",  
+    "name":"Cofee body scrub",
+    "Email":"Kelia@gmail.com",
+    "phone": "250787543448",
+    "Status": "Pending.."
+   },
+   {
+    "Lastname":"Benjamin",  
+    "name":"Aleo Vera soap",
+    "Email":"Benjamin@gmail.com",
+    "phone": "+250788543848",
+    "Status": "delivered"
+   },
+   {
+    "Lastname":"Clemence",  
+    "name":"Shea butter",
+    "Email":"clemence@gmail.com",
+    "phone": "+250789854348",
+    "Status": "cancelled"
+
+   },
+   {
+    "Lastname":"Triphine",  
+    "name":"coconut  body scrub",
+    "Email":"triphine@gmail.com",
+    "phone": "+250787643449",
+    "Status": "delivered"
+
+   }   
+
+]

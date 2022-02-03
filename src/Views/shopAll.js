@@ -11,7 +11,7 @@ const ShopAll=()=>{
  <div className="shop-container">
 <HomeLayout>
     <div className="wallpaper"> 
-    <img src={wallpaper}/>
+    <img src={wallpaper} alt=""/>
     </div>
     <div className="products"> 
  <h1> Our collections</h1>
@@ -19,7 +19,7 @@ const ShopAll=()=>{
      {/* <h2 className="titles">Body scrubs</h2> */}
 {products.map ((products)=>(
      <div className="container">
-         <img src={products.picture}/>
+         <img src={products.picture} alt=""/>
          <h3>{products.name}</h3>
          <p>{products.description}</p>
          <p>{products.price}</p>
