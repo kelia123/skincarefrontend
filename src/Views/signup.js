@@ -1,9 +1,11 @@
 import React from "react";
 import "./signup.css" ;
+import HomeLayout from "../Components/HomeLayout";
 //import {UserOutlined} from "@ant-design/icons";
 const SignUp=()=>{
     return(
-        <>
+        <HomeLayout>
+          {/* <div className="signup form"> */}
       <h1 style={{textAlign:'center'}}> 
        SignUp Form
        </h1>
@@ -20,7 +22,8 @@ const SignUp=()=>{
       <a href="/signin">Already have an account please? signin</a>
       
       </div>
-      </>
+      {/* </div> */}
+      </HomeLayout>
     )
 }
 export default SignUp;

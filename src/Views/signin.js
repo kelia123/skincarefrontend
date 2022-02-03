@@ -6,9 +6,13 @@ import HomeLayout from "../Components/HomeLayout";
 
 const SignIn=()=>{
     return(
+
         
         <div className="SignIn-container">
           <HomeLayout>
+
+        <HomeLayout>
+
           <div className="signin">
           
         <h1>Sign In </h1>
@@ -26,10 +30,14 @@ const SignIn=()=>{
       
       
           </div>
+
           </HomeLayout>
           </div>
    
-   
+
+
+    </HomeLayout>
+
     )
    
 }
