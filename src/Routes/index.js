@@ -2,8 +2,9 @@ import React from "react";
 import {Routes, Route} from "react-router-dom";
 import Order from "../Views/order";
 import Home from "../Views/Home";
-import EmptyCart from "../Views/EmptyCart"
+import EmptyCart from "../Views/EmptyCart";
 import Cart from "../Views/Cart"
+
 import SignUp from"../Views/signup";
 import SignIn from "../Views/signin";
 import ContactUs from "../Views/ContactUs ";

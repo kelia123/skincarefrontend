@@ -19,7 +19,7 @@ const Home=()=>{
                <div className="shopourproducts">
                    <h1>Shop our products</h1>
                </div>
-               <div className=" divtwo">
+               <div className="divtwo">
                    <div className="words">
                        <h1> Lorem ipsum </h1>
                        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam dapibus lorem sed venenatis malesuada. Aliquam id elit at quam ultrices lacinia quis nec nisi. Aliquam nec mattis felis. Phasellus eleifend enim sed metus imperdiet, in molestie arcu cursus. Vestibulum sed ante ac lacus hendrerit maximus et ac mi. </p>
