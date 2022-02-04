@@ -1,7 +1,11 @@
 import React from "react";
 import {Routes, Route} from "react-router-dom";
 import Order from "../Views/order";
+
 import Home from "../Views/home";
+
+import Home from "../Views/home.js";
+
 import EmptyCart from "../Views/EmptyCart";
 import Cart from "../Views/Cart"
 
@@ -19,6 +23,7 @@ import MessageReply from "../Views/MessageReply";
 const Index=()=>{
     return(
         <Routes>
+        <Route exact path="/" element={<Home/>}/>
             <Route exact path="/home" element={<Home/>}/>
 
 

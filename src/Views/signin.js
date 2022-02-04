@@ -9,7 +9,9 @@ const SignIn=()=>{
 
         
         <div className="SignIn-container">
+
           
+        
 
         <HomeLayout>
 
@@ -32,11 +34,15 @@ const SignIn=()=>{
           </div>
 
           </HomeLayout>
+
           </div>
    
 
 
+
     
+
+
 
     )
    
