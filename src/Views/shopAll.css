@@ -14,7 +14,7 @@
 }
 
 .products{
-    height:250vh;
+    min-height:250vh;
     width:100%;
     color:white;
 }
@@ -27,7 +27,7 @@
     font-weight: lighter;
 }
 .bodyScrubs{
-/* height: 65vh; */
+min-height: 60vh;
 /* background-color: rgb(74, 133, 160); */
 display: flex;
 flex-wrap: wrap;
@@ -37,15 +37,15 @@ flex-wrap: wrap;
     font-family: 'Times New Roman', Times, serif;
     font-weight: lighter;
     font-size: 22px;
-    margin-left: 600px;
-    margin-top: 35px;
+    text-align: center;
+    padding: 50px;
 }
 .container{
     width: 23%;
     background-color: rgb(177, 17, 115);
     color: white;
     height: 40vh;
-    margin-top: 150px;
+    /* margin-top: 150px; */
     margin-left: 110px;
     position: relative;
 }

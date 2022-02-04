@@ -30,7 +30,7 @@ const OurStory = () => {
                                 <img src={reviews.image}></img>
                                 <div className="message">
                                     <p>{reviews.message}</p>
-                                    <p>{reviews.products}</p>
+                                    <p>Products applied: {reviews.products}</p>
                                 </div>
                             </div>
                         ))}
