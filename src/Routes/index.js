@@ -1,7 +1,7 @@
 import React from "react";
 import {Routes, Route} from "react-router-dom";
 import Order from "../Views/order";
-import Home from "../Views/Home";
+import Home from "../Views/home";
 import EmptyCart from "../Views/EmptyCart";
 import Cart from "../Views/Cart"
 

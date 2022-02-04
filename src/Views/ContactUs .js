@@ -31,7 +31,7 @@ const ContactUs=()=>{
                       <input type="phone"></input>
                       <hr></hr>
                       <labe for="Type sms"> Type your Message here</labe> <br></br>
-                      <input style={{height:'18vh'}} type="sms"></input>
+                      <textarea style={{height:'18vh',width:'60%'}} id="sms" name="sms" ></textarea>
                       <hr ></hr>
                   <button  style={{color:'black',marginLeft:'300px',backgroundColor:' rgba(210, 160, 122, 1)',width:'12%',borderRadius:'20px'}}>
                     send </button>
