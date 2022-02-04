@@ -11,7 +11,7 @@ const OurStory = () => {
             <div className="ourStory-container">
 
                 <div className="background">
-                    <img src={girl} />
+                    <img src={girl} alt="special" />
 
                     <div className="description">
                         <p> Skin heal is dedicated to help you glow in and out.
@@ -27,7 +27,7 @@ const OurStory = () => {
                     <div className="review-container">
                         {reviews.map((reviews) => (
                             <div className="single-review">
-                                <img src={reviews.image}></img>
+                                <img src={reviews.image} alt="special"></img>
                                 <div className="message">
                                     <p>{reviews.message}</p>
                                     <p>Products applied: {reviews.products}</p>

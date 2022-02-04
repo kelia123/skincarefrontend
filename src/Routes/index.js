@@ -1,7 +1,11 @@
 import React from "react";
 import {Routes, Route} from "react-router-dom";
 import Order from "../Views/order";
+
+import Home from "../Views/home";
+
 import Home from "../Views/home.js";
+
 import EmptyCart from "../Views/EmptyCart";
 import Cart from "../Views/Cart"
 
