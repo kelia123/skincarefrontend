@@ -9,7 +9,6 @@ const SignIn=()=>{
 
         
         <div className="SignIn-container">
-          <HomeLayout>
 
         <HomeLayout>
 
@@ -34,9 +33,6 @@ const SignIn=()=>{
           </HomeLayout>
           </div>
    
-
-
-    </HomeLayout>
 
     )
    
