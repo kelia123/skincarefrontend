@@ -28,7 +28,7 @@ const DashLayout=({children})=>{
     <li> <a>Dashboard</a></li>
     <li> <a href="/manageProducts"> Manage product</a></li>
     <li> <a href="/registerProducts">Create product</a></li>
-    <li><a href="/orders">Orders</a></li>
+    <li><a href="/dashOrders">Orders</a></li>
     <li> <a href="/users"> Customers</a></li>
     <li><a href="/review">Reviews</a></li>
     <li><a href="/statistics">Statistics</a></li>

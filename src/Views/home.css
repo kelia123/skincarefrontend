@@ -5,22 +5,27 @@
 .modeldiv{
 
     width: 100%;
-    height: 860px;
+    min-height: 800px;
     background-color: rgba(210, 160, 122, 1);
     display: flex;
 }
+.modeldiv0{
+    background-color: rgba(210, 160, 122, 1);
+
+}
 .firstimage{
-    width: 350px;
-    height: 400px;
+    width: 330px;
+    height: 450px;
     /* background-color: chartreuse; */
     background-image: url(../Assets/img/products2.jpg);
     background-size: cover;
     margin-left: 50px;
-    margin-top: 350px;
+    margin-top: 300px;
+
 }
 .secondimage{
-    width: 350px;
-    height: 400px;
+    width: 330px;
+    height: 450px;
     /* background-color: purple; */
     background-image: url(../Assets/img/Products1.jpg);
     background-size: cover;
@@ -33,11 +38,10 @@
     /* background-color: tomato; */
     background-image: url(../Assets/img/model.png);
     background-size: cover;
-
+    /* float: right; */
     /* background-color: darkblue; */
-    margin-left: 25%;
-
-    margin-left: 140px;
+    margin-left: 15%;
+    /* margin-left: 149px; */
     margin-top: 160px; 
 }
 .shopourproducts{
@@ -54,23 +58,30 @@
     text-align: center;
 
 }
+.shopourproducts h1 a{
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+}
 .divtwo{
     display: flex;
+    padding-top: 100px;
 
     /* background-color: chocolate; */
-    margin-left: 20%;
+    /* margin-left: 20%; */
     justify-content: space-evenly;
-    width: 20%;
-    margin-top: 104.5px;
+    width: 100%;
+    /* margin-top: 104.5px; */
     height: 90vh;
 
 }
 .words{
     background-color: chartreuse;
     height: 50vh;
-    /* width: 30%; */
-    /* margin-left: 80px; */
-    /* margin-top: 90px; */
+    width: 50%;
+    margin-left: 80px;
+    margin-top: 90px;
+
 }
 .words h1{
     font-size: 20px;
@@ -115,4 +126,27 @@
     margin-top: 250px;
     background-image: url(../Assets/img/serum1.jpg);
     background-size: cover;
+}
+.bestsellers h1{
+    font-size: 15px;
+    text-align: center;
+}
+.bestcontainer{
+    display: flex;
+    flex-direction: wrap;
+    height: 60vh;
+}
+.bestsellerscontainer{
+    margin-left: 115px;
+    width: 300px;
+    height: 40vh;
+}
+.bestsellerscontainer img{
+    width: 100%;
+    height: 100%;
+    margin-top: 20px;
+}
+.bestsellerscontainer p{
+    text-align: center;
+    padding-top: 10px;
 }

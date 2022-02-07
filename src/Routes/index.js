@@ -9,8 +9,12 @@ import SignIn from "../Views/signin";
 import ContactUs from "../Views/ContactUs ";
 import ShopAll from "../Views/shopAll";
 import OurStory from "../Views/ourStory";
-import RegisterProduct from "../Views/Dashboard/registerProduct";
+
 import MessageReply from "../Views/MessageReply";
+
+//dashboard
+import RegisterProduct from "../Views/Dashboard/registerProduct";
+import DashOrders from "../Views/Dashboard/orders"
 
 
 
@@ -18,6 +22,7 @@ import MessageReply from "../Views/MessageReply";
 const Index=()=>{
     return(
         <Routes>
+
             <Route exact path="/" element={<Home/>}/>
             <Route exact path="/home" element={<Home/>}/>
             <Route exact path="/Order" element={<Order/>}/>
@@ -27,12 +32,13 @@ const Index=()=>{
             <Route path="/ourStory" element={<OurStory/>}/>                                
             <Route exact path="/signup" element={<SignUp/>}></Route>
             <Route exact path="/signin" element={<SignIn/>}></Route>
-            <Route exact path="/dashboard" element={<RegisterProduct/>}/>
+            
             <Route exact path="/ContactUs"element={<ContactUs/>}></Route>
             <Route exact path="/MessageReply"element={<MessageReply/>}></Route>
 
-
-
+   
+            <Route exact path="/registerProducts" element={<RegisterProduct/>}/>
+            <Route exact path="/dashOrders" element={<DashOrders/>}/>
 
         </Routes>
     )

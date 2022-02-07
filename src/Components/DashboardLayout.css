@@ -46,18 +46,76 @@ display: flex;
 
 }
 .list{
+    
     height: 65%;
     margin-top: 35px;
     /* background-color: hotpink; */
 }
 
 .list li{
+    color: black;
     margin-top:20px;
     list-style: none;
 
+
+}
+.list li a{
+    text-decoration: none;
+    color: black;
 }
 .register-container{
     height: 100vh;
     width: 100%;
 }
 
+.Dashorder-contariner {
+    margin-left: 16%;
+    /* background-color: chartreuse; */
+    height: 80vh;
+    width: 84%;
+    color: black;
+    position: fixed;
+    text-align: center;
+    padding:50px;
+    }
+    .Dashorder-contariner h1 {
+        font-size: large;
+        text-align: center;
+        font-weight: 400;
+    }
+    .headers{
+        
+        display: flex;
+        /* flex-direction: wrap; */
+        margin-top: 20px;
+        height: 6vh;
+        width: 94%;
+        background-color: white; 
+        font-size: large;
+        text-align: center;
+        font-weight: 400;
+    }
+    .headers h2{
+        font-size: large;
+        text-align: center;
+        font-weight: 400;
+        margin-left: 104px;
+    }
+
+    .row{
+        padding: 10px;
+        margin-top: 20px;
+        display: flex;
+        /* height: 6vh; */
+        width: 86%;
+        background-color: white;
+        box-shadow: 1px 1px 3.5px rgba(128, 128, 128, 0.438);
+       
+    }
+    .row p {
+        margin-left: 65px;
+    }
+.icon{
+    font-size: 130%;
+    margin-left: 65px;
+}

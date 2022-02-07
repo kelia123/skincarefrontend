@@ -5,13 +5,14 @@ import wallpaper from "../Assets/img/images/crop.jpg"
 import products from "../Assets/constants/shop.json"
 
 
+
 const ShopAll=()=>{
 
     return(
  <div className="shop-container">
 <HomeLayout>
     <div className="wallpaper"> 
-    <img src={wallpaper}/>
+    <img src={wallpaper} alt="special"/>
     </div>
     <div className="products"> 
  <h1> Our collections</h1>
@@ -20,7 +21,7 @@ const ShopAll=()=>{
 {products.map ((products)=>(
      <div className="container">
          {/* <h1>{products.title}</h1> */}
-         <img src={products.picture}/>
+         <img src={products.picture} alt="special"/>
          <h3>{products.name}</h3>
          <p>{products.description}</p>
          <p>{products.price}</p>
@@ -33,6 +34,40 @@ const ShopAll=()=>{
 </HomeLayout>
 
  </div> 
+
+const ShopAll = () => {
+
+    return (
+        <div className="shop-container">
+            <HomeLayout>
+                <div className="wallpaper">
+                    <img src={wallpaper} />
+                </div>
+                <div className="products">
+                    <h1> Our collections</h1>
+                    {products.map((category) => (
+                        <>
+                            <h2 className="titles">{category.title}</h2>
+                            <div className="bodyScrubs">
+                                {category.products.map((product) => (
+                                    <div className="container">
+                                        {/* <h1>{category.title}</h1> */}
+                                        <img src={product.picture} />
+                                        <h3>{product.name}</h3>
+                                        <p>{product.description}</p>
+                                        <p>{product.price}</p>
+                                        <button> add to cart</button>
+                                    </div>
+                                ))}
+
+                            </div></>))}
+
+                </div>
+
+            </HomeLayout>
+
+        </div>
+
     )
 }
 
