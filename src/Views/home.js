@@ -1,6 +1,7 @@
 import React from "react";
 import "./home.css"
 import HomeLayout from "../Components/HomeLayout";
+import bestSellers from "../Assets/constants/home.json"
 
 
 
@@ -8,7 +9,7 @@ import HomeLayout from "../Components/HomeLayout";
 
 const Home = () => {
     return (
-
+    
         <HomeLayout>
             <div className="homepage">
                 <div className="modeldiv0">
@@ -18,24 +19,47 @@ const Home = () => {
                         <div className="model"></div>
                     </div>
                     <div className="shopourproducts">
-                        <h1>Shop our products</h1>
+                        <h1><a href="/shopAll">Shop our products</a></h1>
                     </div>
                 </div>
                 <div className="divtwo">
                     <div className="words">
-                        <h1> Lorem ipsum </h1>
-                        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam dapibus lorem sed venenatis malesuada. Aliquam id elit at quam ultrices lacinia quis nec nisi. Aliquam nec mattis felis. Phasellus eleifend enim sed metus imperdiet, in molestie arcu cursus. Vestibulum sed ante ac lacus hendrerit maximus et ac mi. </p>
+                        <h1> Our dedications </h1>
+                        <p> Skin heal is dedicated to help you glow in and out.
+                            We have  natural vegan products which  nourish, smoothens and remove dead cells buildups. Indeed,
+                            We are big believers that if you focus on skincare you won’t really need make up.
+                            Skin heal is dedicated to help you glow in and out.
+                            We have  natural vegan products which  nourish, smoothens and remove dead cells buildups. Indeed,
+                            We are big believers that if you focus on skincare you won’t really need make up.</p>
                     </div>
                     <div className="photos">
                         <div className="photo1"></div>
                         <div className="photo2"></div>
                         <div className="photo3"></div>
                     </div>
-
-
                 </div>
+                <div className="bestsellers">
+                <h1>Our Bestsellers</h1>
+                <div className="bestcontainer">
+                    {bestSellers.map((bestSellers) => (
+                        <>
+                    
+                    <div className="bestsellerscontainer">
+                        <img src={bestSellers.photo}></img>
+                        <p>{bestSellers.name}</p>
+                        <p>{bestSellers.price}</p>
+                    </div>
+                   
+
+                    </>))}
+                    </div>
+                    
+                </div>
+                
+                
             </div>
         </HomeLayout>
+        
     );
 
 }

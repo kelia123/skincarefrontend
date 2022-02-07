@@ -103,3 +103,14 @@
 .navbar a:hover{
     cursor: pointer;
 }
+.signindiv a:hover{
+    cursor: pointer;
+}
+.signupdiv a:hover{
+    cursor: pointer;
+}
+.order a{
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}

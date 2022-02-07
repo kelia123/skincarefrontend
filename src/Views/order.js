@@ -2,11 +2,14 @@ import React from 'react';
 import "./order.css"
 import OrderSlider  from '../Components/OrderSlider';
 import { Carousel } from 'antd';
+import HomeLayout from '../Components/HomeLayout';
 
 
 const Order=()=> {
   return (
+      <HomeLayout>
   <div className=" OrderPage">
+
       <p>Sign In To View Your Cart</p>
       <div className="signin-Order">
           <a href="/signIn"><button> Sign In</button></a>
@@ -18,6 +21,7 @@ const Order=()=> {
      
       <OrderSlider/>
   </div>
+  </HomeLayout>
     );
 }
 
