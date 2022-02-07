@@ -56,6 +56,7 @@ const ShopAll = () => {
                                         <h3>{product.name}</h3>
                                         <p>{product.description}</p>
                                         <p>{product.price}</p>
+                                        <button> add to cart</button>
                                     </div>
                                 ))}
 

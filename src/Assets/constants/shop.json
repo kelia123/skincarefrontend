@@ -9,11 +9,12 @@
             "price": "5500 RWF"
          },
          {
-            "name": "Mango butter",
-            "description": "Collagen in mango form skin prtective layer",
-            "picture": "https://cdn.shopify.com/s/files/1/2420/2177/products/IMG-20180307-WA0000_1200x1200.jpg?v=1536801512",
-            "price": "6000 RWF"
+            "name": "Coconut Body scrub",
+            "description": "  Face wash and moisturizer all-in-one    ",
+            "picture": "https://www.eatingbirdfood.com/wp-content/uploads/2014/12/Homemade-Whipped-Coconut-Oil-Sugar-Scrub2.jpg",
+            "price": "5000 RWF"
          },
+         
          {
             "name": "Sugar body scrub",
             "description": " Sugar granules in this scrub exfoliate dead skin cell ",
@@ -25,12 +26,7 @@
    {
       "title": "Body Srub",
       "products": [
-         {
-            "name": "Coconut Body scrub",
-            "description": "  Face wash and moisturizer all-in-one    ",
-            "picture": "https://www.eatingbirdfood.com/wp-content/uploads/2014/12/Homemade-Whipped-Coconut-Oil-Sugar-Scrub2.jpg",
-            "price": "5000 RWF"
-         },
+       
          {
             "name": "Shea butter",
             "description": "Treat skin swelling conditionslike eczema Soften skin",
@@ -42,6 +38,12 @@
             "description": "Source of proteins that neurish and replinsh the skin",
             "picture": "https://www.shahebbibi.com/wp-content/uploads/2021/01/asldd144f1.jpg",
             "price": "5500 RWF"
+         },
+         {
+            "name": "Mango butter",
+            "description": "Collagen in mango form skin prtective layer",
+            "picture": "https://cdn.shopify.com/s/files/1/2420/2177/products/IMG-20180307-WA0000_1200x1200.jpg?v=1536801512",
+            "price": "6000 RWF"
          }
       ]
    },
