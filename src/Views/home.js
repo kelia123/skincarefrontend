@@ -5,8 +5,6 @@ import bestSellers from "../Assets/constants/home.json"
 
 
 
-
-
 const Home = () => {
     return (
     
@@ -64,3 +62,4 @@ const Home = () => {
 
 }
 export default Home;
+

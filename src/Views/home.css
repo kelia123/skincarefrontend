@@ -76,11 +76,12 @@
 
 }
 .words{
-    /* background-color: chartreuse; */
+    background-color: chartreuse;
     height: 50vh;
     width: 50%;
     margin-left: 80px;
     margin-top: 90px;
+
 }
 .words h1{
     font-size: 20px;
@@ -96,7 +97,7 @@
     height: 80vh;
     width: 55%;
     /* background-color: darkred; */
-    margin-left: 100px;
+    /* margin-left: 100px; */
     display: flex;
 }
 .photo1{
