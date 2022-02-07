@@ -35,5 +35,12 @@ const SignUp = () => {
       </HomeLayout>
     </>
   )
+
+
+
+      
+
+
+
   }
 export default SignUp;
