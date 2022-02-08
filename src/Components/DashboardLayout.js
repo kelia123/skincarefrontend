@@ -10,7 +10,7 @@ const DashLayout=({children})=>{
 
 <div className="header">
     <div className="menu"> <MenuOutlined /> </div>
-    <div className="logo-division"> <img src={photo}></img></div>
+    <div className="logo-division"> <img src={photo} alt=""></img></div>
     <div className="logout">log out</div>
     </div>
     <div className="menuSection">

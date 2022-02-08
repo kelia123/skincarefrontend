@@ -9,8 +9,9 @@ import products from "../Assets/constants/shop.json"
 const ShopAll=()=>{
 
     return(
+        <HomeLayout>
  <div className="shop-container">
-<HomeLayout>
+
     <div className="wallpaper"> 
     <img src={wallpaper} alt="special"/>
     </div>
@@ -31,41 +32,9 @@ const ShopAll=()=>{
  </div>
     </div>
 
-</HomeLayout>
 
  </div> 
-
-const ShopAll = () => {
-
-    return (
-        <div className="shop-container">
-            <HomeLayout>
-                <div className="wallpaper">
-                    <img src={wallpaper} />
-                </div>
-                <div className="products">
-                    <h1> Our collections</h1>
-                    {products.map((category) => (
-                        <>
-                            <h2 className="titles">{category.title}</h2>
-                            <div className="bodyScrubs">
-                                {category.products.map((product) => (
-                                    <div className="container">
-                                        {/* <h1>{category.title}</h1> */}
-                                        <img src={product.picture} />
-                                        <h3>{product.name}</h3>
-                                        <p>{product.description}</p>
-                                        <p>{product.price}</p>
-                                    </div>
-                                ))}
-
-                            </div></>))}
-
-                </div>
-
-            </HomeLayout>
-
-        </div>
+ </HomeLayout>
 
     )
 }

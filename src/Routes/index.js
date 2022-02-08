@@ -1,14 +1,9 @@
 import React from "react";
 import {Routes, Route} from "react-router-dom";
 import Order from "../Views/order";
-
 import Home from "../Views/home";
-
-import Home from "../Views/home.js";
-
 import EmptyCart from "../Views/EmptyCart";
 import Cart from "../Views/Cart"
-
 import SignUp from"../Views/signup";
 import SignIn from "../Views/signin";
 import ContactUs from "../Views/ContactUs ";
@@ -16,6 +11,8 @@ import ShopAll from "../Views/shopAll";
 import OurStory from "../Views/ourStory";
 import RegisterProduct from "../Views/Dashboard/registerProduct";
 import MessageReply from "../Views/MessageReply";
+import { Carousel } from "antd";
+import SliderTest from "../Views/SliderTest"
 
 
 
@@ -25,13 +22,11 @@ const Index=()=>{
         <Routes>
         <Route exact path="/" element={<Home/>}/>
             <Route exact path="/home" element={<Home/>}/>
-
-
+            <Route exact path="/SliderTest" element={<SliderTest/>}/>
             <Route exact path="/Order" element={<Order/>}/>
             <Route exact path="/EmptyCart" element={<EmptyCart/>}/>
             <Route exact path="/Cart" element={<Cart/>}/>
-
-
+            <Route exact path="/carousel" element={<Carousel/>}/>
             <Route exact path="/shopAll" element={<ShopAll/>}/>
             <Route path="/ourStory" element={<OurStory/>}/>                                
             <Route exact path="/signup" element={<SignUp/>}></Route>
