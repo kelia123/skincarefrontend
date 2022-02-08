@@ -9,8 +9,9 @@ import products from "../Assets/constants/shop.json"
 const ShopAll=()=>{
 
     return(
+        <HomeLayout>
  <div className="shop-container">
-<HomeLayout>
+
     <div className="wallpaper"> 
     <img src={wallpaper} alt="special"/>
     </div>
@@ -31,9 +32,11 @@ const ShopAll=()=>{
  </div>
     </div>
 
-</HomeLayout>
 
  </div> 
+
+ </HomeLayout>
+
 
 const ShopAll = () => {
 
@@ -67,6 +70,7 @@ const ShopAll = () => {
             </HomeLayout>
 
         </div>
+
 
     )
 }

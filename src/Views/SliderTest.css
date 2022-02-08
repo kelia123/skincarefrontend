@@ -1,0 +1,6 @@
+.Card-wrapper{
+    height: 60vh;
+    width: 80%;
+    flex-wrap: wrap;
+    text-align: right;
+}
