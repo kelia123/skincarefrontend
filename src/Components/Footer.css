@@ -59,12 +59,13 @@
     height: 40vh;
 }
 .newsletter h1{
-    font-size: 15px;
+    
+    font-size: 17px;
     font-weight: lighter;
     margin-top: 15px;
 }
 .newsletter h2{
-    font-size: 15px;
+    font-size: 17px;
     font-weight: lighter;
     margin-top: 20px;
 }

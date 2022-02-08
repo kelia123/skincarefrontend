@@ -34,13 +34,7 @@ const SignUp = () => {
         </div>
       </HomeLayout>
     </>
-  )
+  );
+}
 
-
-
-      
-
-
-
-  }
 export default SignUp;
