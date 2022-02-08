@@ -14,6 +14,7 @@ const Header=()=>{
                 <div className="signupdiv"><a href="/signup">Sign up</a> </div>
                 <div className="signindiv"><a href="/signin">Sign in</a> </div>
                 <div className="order"> <a href="/EmptyCart"><ShoppingOutlined /> </a></div>
+
             </div>
         </div>
         <div className="navbar">

@@ -34,7 +34,43 @@ const ShopAll=()=>{
 
 
  </div> 
+
  </HomeLayout>
+
+
+const ShopAll = () => {
+
+    return (
+        <div className="shop-container">
+            <HomeLayout>
+                <div className="wallpaper">
+                    <img src={wallpaper} />
+                </div>
+                <div className="products">
+                    <h1> Our collections</h1>
+                    {products.map((category) => (
+                        <>
+                            <h2 className="titles">{category.title}</h2>
+                            <div className="bodyScrubs">
+                                {category.products.map((product) => (
+                                    <div className="container">
+                                        {/* <h1>{category.title}</h1> */}
+                                        <img src={product.picture} />
+                                        <h3>{product.name}</h3>
+                                        <p>{product.description}</p>
+                                        <p>{product.price}</p>
+                                        <button> add to cart</button>
+                                    </div>
+                                ))}
+
+                            </div></>))}
+
+                </div>
+
+            </HomeLayout>
+
+        </div>
+
 
     )
 }

@@ -65,4 +65,15 @@ flex-wrap: wrap;
     color: black;
 
 }
+.container button{
+        margin-top: 10px;
+         float: right;
+        color: black;
+        background-color:  rgba(210, 160, 122, 1) ;
+        height: 5.5vh;
+        border:none;
+        width: 130px;
+        border-radius: 10px;
+        margin-right: 90px;
+}
 

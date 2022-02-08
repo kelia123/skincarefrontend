@@ -1,7 +1,9 @@
 import React from 'react';
 import "./order.css"
+
 import SliderTest from "./SliderTest"
-// import { Carousel } from 'antd';
+import OrderSlider  from '../Components/OrderSlider';
+import { Carousel } from 'antd';
 import HomeLayout from '../Components/HomeLayout';
 
 
@@ -9,9 +11,15 @@ import HomeLayout from '../Components/HomeLayout';
 const Order=()=> {
   return (
       <HomeLayout>
+
           <div className="OrderUnderline"></div>
   <div className=" OrderPage">
       <p style={{ fontSize:"30px"}}>Sign In To View Your Cart</p><br/>
+
+  <div className=" OrderPage">
+
+      <p>Sign In To View Your Cart</p>
+
       <div className="signin-Order">
           <a href="/signIn"><button> Sign In</button></a>
       </div>
