@@ -34,6 +34,7 @@ const Order=()=> {
              marginRight:"10px",
              fontSize:"30px"}}> You might fill your cart with :</p>
              <br/>
+             </div>
          <SliderTest />
   </div>
   </HomeLayout>
