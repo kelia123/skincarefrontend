@@ -33,7 +33,7 @@ const Index=()=>{
             <Route exact path="/signin" element={<SignIn/>}></Route>
             <Route exact path="/dashboard" element={<RegisterProduct/>}/>
             <Route exact path="/ContactUs"element={<ContactUs/>}></Route>
-            <Route exact path="MessageReply"element={<MessageReply/>}></Route>
+            <Route exact path="/MessageReply"element={<MessageReply/>}></Route>
 
 
 
