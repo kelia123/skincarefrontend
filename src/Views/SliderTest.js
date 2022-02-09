@@ -74,5 +74,5 @@ function SliderTest() {
 }
 
 const rootElement = document.getElementById("root");
-ReactDOM.render(<SliderTest />, rootElement);
+// ReactDOM.render(<SliderTest />, rootElement);
 export default SliderTest;
