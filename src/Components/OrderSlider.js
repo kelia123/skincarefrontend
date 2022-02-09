@@ -1,7 +1,7 @@
 import React from "react"
 import { Slider } from "../Assets/imageData"
 import "./OrderSlider.css"
-import { Carousel } from 'antd';
+// import { Carousel } from 'antd';
 
 const OrderSlider = () => {
     let SliderCopy = [...Slider]

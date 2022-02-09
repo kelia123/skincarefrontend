@@ -5,9 +5,9 @@ import HomeLayout from "../Components/HomeLayout";
 const SignUp = () => {
 
   return (
-    <>
+    
       <HomeLayout>
-        <div className="signupcontainer">
+      <div className="signupcontainer">
 
         <div className="signup">
 
@@ -31,9 +31,9 @@ const SignUp = () => {
             </div>
 
           </div>
-        </div>
+          </div>
       </HomeLayout>
-    </>
+      
   )
 
 

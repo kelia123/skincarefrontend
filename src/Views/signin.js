@@ -8,13 +8,13 @@ const SignIn=()=>{
     return(
 
         
-        <div className="SignIn-container">
+       
 
           
-        
+      <div className="SignIn-container">
 
         <HomeLayout>
-
+        
           <div className="signin">
           
         <h1>Sign In </h1>
@@ -32,7 +32,7 @@ const SignIn=()=>{
       
       
           </div>
-
+         
           </HomeLayout>
 
           </div>

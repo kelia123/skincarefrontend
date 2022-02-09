@@ -4,7 +4,7 @@ import Order from "../Views/order";
 
 import Home from "../Views/home";
 
-import Home from "../Views/home.js";
+
 
 import EmptyCart from "../Views/EmptyCart";
 import Cart from "../Views/Cart"
@@ -16,6 +16,8 @@ import ShopAll from "../Views/shopAll";
 import OurStory from "../Views/ourStory";
 import RegisterProduct from "../Views/Dashboard/registerProduct";
 import MessageReply from "../Views/MessageReply";
+import Customers  from "../Views/Dashboard/Customers";
+import Products from "../Views/Dashboard/products";
 
 
 
@@ -28,7 +30,7 @@ const Index=()=>{
 
 
             <Route exact path="/Order" element={<Order/>}/>
-            <Route exact path="/EmptyCart" element={<EmptyCart/>}/>
+            <Route exact path="/ " element={<EmptyCart/>}/>
             <Route exact path="/Cart" element={<Cart/>}/>
 
 
@@ -39,9 +41,8 @@ const Index=()=>{
             <Route exact path="/dashboard" element={<RegisterProduct/>}/>
             <Route exact path="/ContactUs"element={<ContactUs/>}></Route>
             <Route exact path="MessageReply"element={<MessageReply/>}></Route>
-
-
-
+            <Route exact path="/dashboard/customers"element={<Customers/>}></Route>
+            <Route exact path="/dashboard/product"element={<Products/>}></Route>
 
         </Routes>
     )

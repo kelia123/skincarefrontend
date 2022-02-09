@@ -1,7 +1,7 @@
 import React from 'react';
 import "./order.css"
 import OrderSlider  from '../Components/OrderSlider';
-import { Carousel } from 'antd';
+// import { Carousel } from 'antd';
 
 
 const Order=()=> {
