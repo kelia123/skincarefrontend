@@ -24,6 +24,7 @@ const Order=()=> {
       <div className="shop-Order">
           <a href="/shopAll"><button> Shop Now</button></a>
       </div>
+<<<<<<< HEAD
          <p 
          style={{
              padding:"30px",
@@ -33,6 +34,11 @@ const Order=()=> {
              fontSize:"30px"}}> You might fill your cart with :</p>
              <br/>
          <SliderTest />
+=======
+         <p style={{padding:"30px",color: "black",marginbottom:"5px",marginRight:"10px"}}></p>
+     
+      
+>>>>>>> a5d634a (fetching apis)
   </div>
  </div> 
   </HomeLayout>
