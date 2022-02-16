@@ -10,13 +10,8 @@ const DashLayout=({children})=>{
 
 <div className="header">
     <div className="menu"> <MenuOutlined /> </div>
-<<<<<<< HEAD
-    <div className="logo-division"> <img src={photo} alt=""></img></div>
-    <div className="logout">log out</div>
-=======
     <div className="logo-division"> <img src={photo}></img></div>
     <div className="logout"><a href="/home">log out</a> </div>
->>>>>>> a5d634a (fetching apis)
     </div>
     <div className="menuSection">
     <ul className="icons">
