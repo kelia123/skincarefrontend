@@ -4,10 +4,6 @@
         "price/U":"5500",
         "Product Number":"230",
         "status":"Available"
-<<<<<<< HEAD
-=======
-
->>>>>>> 36a8f55 (contents)
     },
     {
        "Product Name":"Turmeric soap",
@@ -19,22 +15,13 @@
         "Product Name":"Mango body butter",
         "price/U":"5000",
         "Product Number":"320",
-<<<<<<< HEAD
-        "status":"available"  
-=======
         "status":"available"   
->>>>>>> 36a8f55 (contents)
     },
     {
         "Product Name":"Shear butter",
         "price/U":"5000",
         "Product Number":"0",
-<<<<<<< HEAD
-        "status":"Run out"  
-    }
-=======
         "status":"Run out"   
     }
 
->>>>>>> 36a8f55 (contents)
 ]

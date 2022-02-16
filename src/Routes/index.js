@@ -25,8 +25,7 @@ import Products from "../Views/Dashboard/products";
 import RegisterProduct from "../Views/Dashboard/registerProduct";
 import DashOrders from "../Views/Dashboard/orders"
 import Statistics from "../Views/Dashboard/statistics";
-import Customers  from "../Views/Dashboard/Custormers";
-import Products from "../Views/Dashboard/products";
+
 
 
 
