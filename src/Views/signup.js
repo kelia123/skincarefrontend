@@ -3,11 +3,17 @@ import "./signup.css";
 import "antd/dist/antd.css";
 import HomeLayout from "../Components/HomeLayout";
 import skinhealApi from "../services/skinhealApi";
+<<<<<<< HEAD
 
 const SignUp = () => {
   const onFinish = (values) => {
     console.log("Received values of form: ", values);
 
+=======
+const SignUp = () => {
+  const onFinish = (values) => {
+    console.log("Received values of form: ", values);
+>>>>>>> fae237c (cart)
     skinhealApi.createAccount(values).then((res) => {
       if (!res) {
         return notification.error({ message: "server is down" });
@@ -21,7 +27,10 @@ const SignUp = () => {
       }
     });
   };
+<<<<<<< HEAD
 
+=======
+>>>>>>> fae237c (cart)
   return (
     <HomeLayout>
       <div className="signupcontainer">
@@ -104,17 +113,28 @@ const SignUp = () => {
             <Form.Item>
               <Form.Item name="remember" valuePropName="checked" noStyle>
                 <Checkbox> I agree the terms and conditions</Checkbox>
+<<<<<<< HEAD
               </Form.Item>
 
               <a className="login-form-forgot" href=""></a>
             </Form.Item>
 
+=======
+                
+              </Form.Item>
+              <a className="login-form-forgot" href=""></a>
+            </Form.Item>
+>>>>>>> fae237c (cart)
             <Form.Item>
               <Button
                 type="primary"
                 htmlType="submit"
                 className="login-form-button"
+<<<<<<< HEAD
                className="button">
+=======
+              >
+>>>>>>> fae237c (cart)
                 Sign up
               </Button>
             </Form.Item>
@@ -124,5 +144,8 @@ const SignUp = () => {
     </HomeLayout>
   );
 };
+<<<<<<< HEAD
 
+=======
+>>>>>>> fae237c (cart)
 export default SignUp;

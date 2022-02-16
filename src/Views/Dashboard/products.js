@@ -1,5 +1,6 @@
 import React from "react";
 import DashLayout from "../../Components/DashboardLayout";
+import "./products.css";
 import ProductContent from "../../Assets/constants/products.json";
 import {Space,Table} from "antd";
 import {EyeOutlined, EditOutlined,DeleteOutlined} from '@ant-design/icons';
@@ -10,6 +11,7 @@ const columnOne=[
         dataIndex:"Product Name",
         key:"Product Name"
     },
+
     {
         title:"price/U",
         dataIndex:"price/U",
@@ -20,6 +22,7 @@ const columnOne=[
     dataIndex:"Product Number",
     key:"Product Number"
 },
+
 {
     title:"Status",
     dataIndex:"Status",
@@ -45,9 +48,10 @@ const columnOne=[
 const Products=()=>{
     return (
         <DashLayout>
-         <h2 style={{textAlign:'center', fontSize:'22px', fontWeight:"400"}}>Products</h2>
+         <h2 style={{textAlign:'center', fontSize:'40px'}}>Products</h2>
         <Table style={{width:'80%',marginLeft:'250px',height:'90vh'}} columns={columnOne} dataSource={ ProductContent}/>
         </DashLayout>
     )
+
     }
   export default Products;

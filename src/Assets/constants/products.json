@@ -15,12 +15,13 @@
         "Product Name":"Mango body butter",
         "price/U":"5000",
         "Product Number":"320",
-        "status":"available"  
+        "status":"available"   
     },
     {
         "Product Name":"Shear butter",
         "price/U":"5000",
         "Product Number":"0",
-        "status":"Run out"  
+        "status":"Run out"   
     }
+
 ]

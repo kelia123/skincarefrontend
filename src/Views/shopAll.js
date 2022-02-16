@@ -4,14 +4,13 @@ import HomeLayout from "../Components/HomeLayout";
 import wallpaper from "../Assets/img/images/crop.jpg"
 import products from "../Assets/constants/shop.json"
 
-
 const ShopAll = () => {
 
     return (
         <div className="shop-container">
             <HomeLayout>
                 <div className="wallpaper">
-                    <img src={wallpaper} />
+                    <img src={wallpaper} alt="special one" />
                 </div>
                 <div className="products">
                     <h1> Our collections</h1>
@@ -28,6 +27,7 @@ const ShopAll = () => {
                                                 <div className="text"> add to cart</div>
                                             </div>
                                         </div>
+                                        <img src={product.picture} alt=" special one" />
                                         <h3>{product.name}</h3>
                                         <p>{product.description}</p>
                                         <p>{product.price}</p>
