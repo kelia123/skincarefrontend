@@ -1,6 +1,6 @@
 [
    {
-      "title": "Body Butter",
+      "title": "Body Srubs",
       "products": [
          {
             "name": "Cofee body scrub",
@@ -10,7 +10,7 @@
          },
          {
             "name": "Coconut Body scrub",
-            "description": "  Face wash and moisturizer all-in-one    ",
+            "description": "  Face wash, replenisher and moisturizer all-in-one    ",
             "picture": "https://www.eatingbirdfood.com/wp-content/uploads/2014/12/Homemade-Whipped-Coconut-Oil-Sugar-Scrub2.jpg",
             "price": "5000 RWF"
          },
@@ -24,7 +24,7 @@
       ]
    },
    {
-      "title": "Body Srub",
+      "title": "Body Butters",
       "products": [
        
          {
