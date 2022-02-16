@@ -1,9 +1,14 @@
 import React from 'react';
 import "./order.css"
+<<<<<<< HEAD
 import SliderTest from "./SliderTest"
 import { Carousel } from 'antd';
 import HomeLayout from '../Components/HomeLayout';
 
+=======
+import OrderSlider  from '../Components/OrderSlider';
+// import { Carousel } from 'antd';
+>>>>>>> 36a8f55 (contents)
 
 
 const Order=()=> {

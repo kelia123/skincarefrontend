@@ -4,14 +4,17 @@ import HomeLayout from "../Components/HomeLayout";
 import wallpaper from "../Assets/img/images/crop.jpg"
 import products from "../Assets/constants/shop.json"
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 36a8f55 (contents)
 const ShopAll = () => {
 
     return (
         <div className="shop-container">
             <HomeLayout>
                 <div className="wallpaper">
-                    <img src={wallpaper} />
+                    <img src={wallpaper} alt="special one" />
                 </div>
                 <div className="products">
                     <h1> Our collections</h1>
@@ -22,12 +25,16 @@ const ShopAll = () => {
                                 {category.products.map((product) => (
                                     <div className="container">
                                         {/* <h1>{category.title}</h1> */}
+<<<<<<< HEAD
                                         <div className="overlay">
                                             <img className="image" src={product.picture} />
                                             <div className="middle">
                                                 <div className="text"> add to cart</div>
                                             </div>
                                         </div>
+=======
+                                        <img src={product.picture} alt=" special one" />
+>>>>>>> 36a8f55 (contents)
                                         <h3>{product.name}</h3>
                                         <p>{product.description}</p>
                                         <p>{product.price}</p>

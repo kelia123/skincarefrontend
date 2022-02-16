@@ -8,6 +8,7 @@ const SignUp = () => {
   const onFinish = (values) => {
     console.log("Received values of form: ", values);
 
+<<<<<<< HEAD
     skinhealApi.createAccount(values).then((res) => {
       if (!res) {
         return notification.error({ message: "server is down" });
@@ -21,6 +22,12 @@ const SignUp = () => {
       }
     });
   };
+=======
+  return (
+    
+      <HomeLayout>
+      <div className="signupcontainer">
+>>>>>>> 36a8f55 (contents)
 
   return (
     <HomeLayout>
@@ -109,6 +116,7 @@ const SignUp = () => {
               <a className="login-form-forgot" href=""></a>
             </Form.Item>
 
+<<<<<<< HEAD
             <Form.Item>
               <Button
                 type="primary"
@@ -124,5 +132,23 @@ const SignUp = () => {
     </HomeLayout>
   );
 };
+=======
+            <button type="submit"> <a href="/home">CREATE ACCOUNT</a></button><br /><br />
+            <div className="pleasesignin">
+            <a href="/signin">Already have an account please? signin</a>
+            </div>
+
+          </div>
+          </div>
+      </HomeLayout>
+      
+  )
+
+
+
+      
+
+
+>>>>>>> 36a8f55 (contents)
 
 export default SignUp;
