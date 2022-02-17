@@ -1,6 +1,6 @@
 .Slider{
   overflow: hidden;
-  /* box-shadow: 0 10px 20px; */
+  box-shadow: 0 10px 20px;
 }
 .Card-wrapper{
     /* height: 60vh;

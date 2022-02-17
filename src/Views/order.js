@@ -20,6 +20,7 @@ const Order=()=> {
       <div className="shop-Order">
           <a href="/shopAll"><button> Shop Now</button></a>
       </div>
+
          <p 
          style={{
              padding:"30px",
@@ -29,7 +30,7 @@ const Order=()=> {
              fontSize:"20px"}}> You might fill your cart with :</p>
          <SliderTest/>
   </div>
-  
+   
   </HomeLayout>
 
     );

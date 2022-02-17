@@ -1,5 +1,6 @@
 [
     {
+<<<<<<< HEAD
        "First-Name": " jane",
        "Last-Name": "neza",
        "Email adress": "jane@gmail.com",
@@ -40,3 +41,45 @@
         "Status":"activate"
       }
 ]
+=======
+       "fistName": " jane",
+       "lastName": "neza",
+       "email": "jane@gmail.com",
+       "address":"Kicukiro",
+       "phone": "0783455798",
+       "Status":"activate"
+    },
+    {
+        "fistName": " alliane",
+        "lastName": "keza",
+        "email": "allianekeza@gmail.com",
+        "address": "kicukiro",
+        "phone": "0783455768",
+        "Status":"disactivated"
+      },
+      {
+        "fistName": " kevine",
+        "lastName": "ishimwe",
+        "email": "kevine@gmail.com",
+        "address": "kanombe",
+        "phone": "0783455768",
+        "Status":"disactivated"
+      },
+      {
+        "fistName": " alice",
+        "lastName": "ineza",
+        "email": "alice@gmail.com",
+        "address": "gisozi",
+        "phone": "0783455700",
+        "Status":"activate"
+      },
+      {
+        "fistName": " aline",
+        "lastName": "keza",
+        "email": "aline@gmil.com",
+        "address": "kanombe",
+        "phone": "07834557480",
+        "Status":"activate"
+      }
+]
+>>>>>>> a9259619ffb6fbdf63f6ac94f18a9835e6fccaf7

@@ -22,6 +22,7 @@ function SliderTest(props) {
         <Carousel breakPoints={breakPoints}>
         <div className="Card-wrapper">
           <Item>
+
           <img  src="https://beautycrafter.com/wp-content/uploads/2021/01/diy-coffee-scrub-1.jpg" 
             style={{width:"69%",height:"40vh"}} alt="" />
             </Item>
@@ -29,7 +30,6 @@ function SliderTest(props) {
           <h4 style={{textAlign:"center"}}> 5500 RWF</h4>
           <button className="orderButton" ><a href="/Cart"> add to cart</a></button>
           </div>
-          
            <div className="Card-wrapper">
           <Item>
           
@@ -69,16 +69,17 @@ function SliderTest(props) {
                <button className="orderButton"> <a href="/Cart"> add to cart</a></button>
           </div>
           <div className="Card-wrapper">
-          <Item>
-          <img src="https://www.imaxshop.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/b/u/burro-di-karite.jpeg.pagespeed.ce.0632cS99cK.jpg" 
-            style={{width:"80%",height:"40vh"}}alt=""/>
-          </Item>
+             <Item>
+              <img src="https://www.imaxshop.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/b/u/burro-di-karite.jpeg.pagespeed.ce.0632cS99cK.jpg" 
+              style={{width:"80%",height:"40vh"}}alt=""/>
+             </Item>
               <h4 style={{textAlign:"center"}}>Shea butter </h4> 
               <h4 style={{textAlign:"center"}}> 5000 RWF</h4>
               <button className="orderButton"> <a href="/Cart"> add to cart</a></button> 
-          </div>
-        </Carousel>
-      </div>
+            </div>
+            
+         </Carousel>
+       </div>
     </>
   );
 }

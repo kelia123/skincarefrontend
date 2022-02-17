@@ -1,0 +1,27 @@
+[
+    {
+        "Product Name":"Coconut body scrub",
+        "price/U":"5500",
+        "Product Number":"230",
+        "status":"Available"
+    },
+    {
+       "Product Name":"Turmeric soap",
+       "price/U":"3500",
+       "Product Number":"150",
+       "status":"Available"
+    },
+    {
+        "Product Name":"Mango body butter",
+        "price/U":"5000",
+        "Product Number":"320",
+        "status":"available"   
+    },
+    {
+        "Product Name":"Shear butter",
+        "price/U":"5000",
+        "Product Number":"0",
+        "status":"Run out"   
+    }
+
+]

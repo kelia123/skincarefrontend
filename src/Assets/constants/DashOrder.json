@@ -2,18 +2,21 @@
     {
         "name": "Klaus",
         "products": " coffee body scrub",
+        "price":"5500",
         "email":"klaus@gmail.com",
         "telephone": "+250786564323"
     },
     {
         "name": " Uwera",
         "products": "Shea body butter",
+        "price":"5000",
         "email":"gentox@gmail.com",
         "telephone": "+250787564343"
     },
     {
         "name": "Sam",
         "products": "Turmeric vegan soap",
+        "price":"3500",
         "email":"sam@gmail.com",
         "telephone": "+2507875545434"
     },
@@ -21,6 +24,14 @@
         "name": " Carine",
         "products": " Almond body butter",
         "email":"muksa@gmail.com",
+        "price":"5000",
+        "telephone": "+1274895995"
+    },
+    {
+        "name": " Adele",
+        "products": " Aleo Vera soap",
+        "email":"adelelea@gmail.com",
+        "price":"4000",
         "telephone": "+1274895995"
     }
 ]

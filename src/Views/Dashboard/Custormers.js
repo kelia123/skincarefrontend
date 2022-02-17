@@ -4,64 +4,78 @@ import { Space, Table,Drawer,Card,Skeleton,notification } from "antd";
 import { EyeOutlined, EditOutlined, DeleteOutlined } from "@ant-design/icons";
 import SkinHealApis from "../../services/skinhealApi";
 import "antd/dist/antd.css";
-const column = [
-  {
-    title: "First Name",
-    dataIndex: "fistName",
-    key: "fistName",
-  },
-  {
-    title: "Email adress",
-    dataIndex: "email",
-    key: "email",
-  },
-  {
-    title: "Address",
-    dataIndex: "address",
-    key: "address",
-  },
-  {
-    title: "Telephone",
-    dataIndex: "phone",
-    key: "phone",
-  },
-  {
-    title: "Role",
-    dataIndex: "role",
-    key: "role",
-  },
-  {
-    title: "Status",
-    dataIndex: "Status",
-    render: (text, record) => (
-      <Space size="middle">
-        <a style={{ color: "black" }}>Activate</a>
-        <a style={{ color: "black" }}>Disactivate</a>
-      </Space>
-    ),
-  },
-  {
-    title: "action",
-    dataIndex: "action",
-    render: (text, record) => (
-      <Space size="middle">
-        <a>
-          <EyeOutlined />
-        </a>
-        <a>
-          <EditOutlined />
-        </a>
-        <a>
-          <DeleteOutlined />
-        </a>
-      </Space>
-    ),
-  },
-];
+
 const Customers = () => {
+
   const [allUsersData, setAllUsersData] = useState([]);
+
   const [isDrawerVisible, setIsDrawerVisible] = useState(false);
   const [user, setUser] = useState({});
+
+
+
+  const column = [
+    {
+      title: "First Name",
+      dataIndex: "fistName",
+      key: "fistName",
+    },
+   
+    {
+      title: "Email adress",
+      dataIndex: "email",
+      key: "email",
+    },
+    {
+      title: "Address",
+      dataIndex: "address",
+      key: "address",
+    },
+    {
+      title: "Telephone",
+      dataIndex: "phone",
+      key: "phone",
+    },
+    {
+      title: "Role",
+      dataIndex: "role",
+      key: "role",
+    },
+    {
+      title: "Status",
+      dataIndex: "Status",
+      render: (text, record) => (
+        <Space size="middle">
+          <a style={{ color: "black" }}>Activate</a>
+          <a style={{ color: "black" }}>Disactivate</a>
+        </Space>
+      ),
+    },
+    {
+      title: "action",
+      dataIndex: "action",
+      render: (text, record) => (
+        <Space size="middle">
+          <a href="#"
+              onClick={() => {
+                setUser(record);
+                setIsDrawerVisible(true);
+              }}> 
+            <EyeOutlined />
+          </a>
+          <a>
+            <EditOutlined />
+          </a>
+          <a>
+            <DeleteOutlined />
+          </a>
+        </Space>
+      ),
+    },
+  ];
+
+
+
   useEffect(() => {
       SkinHealApis.getAllUsers().then((res)=>{
         console.log(">>>>>>", res);
@@ -79,6 +93,7 @@ const Customers = () => {
     }
   });
 }, []);
+
   return (
     <DashLayout>
       <h2 style={{ textAlign: "center", fontSize: "22px", fontWeight: "400" }}>
@@ -92,6 +107,7 @@ const Customers = () => {
         columns={column}
         dataSource={allUsersData}
       />)}
+
       <Drawer  placement="left"
         onClose={() => setIsDrawerVisible(false)}
         visible={isDrawerVisible}
@@ -104,9 +120,9 @@ const Customers = () => {
             </h4>
           </Space>
         </Card>
+         
       </Drawer>
     </DashLayout>
   );
 };
 export default Customers;
-

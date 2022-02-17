@@ -6,11 +6,14 @@ import products from "../Assets/constants/shop.json"
 
 
 const ShopAll = () => {
+
     return (
         <div className="shop-container">
             <HomeLayout>
                 <div className="wallpaper">
-                    <img src={wallpaper}alt="" />
+
+                    <img src={wallpaper} alt="special one" />
+
                 </div>
                 <div className="products">
                     <h1> Our collections</h1>
@@ -22,21 +25,35 @@ const ShopAll = () => {
                                     <div className="container">
                                         {/* <h1>{category.title}</h1> */}
                                         <div className="overlay">
-                                            <img className="image" src={product.picture} alt=""/>
+
+                                            <img className="image" src={product.picture} />
+
                                             <div className="middle">
                                                 <div className="text"> add to cart</div>
                                             </div>
                                         </div>
+
+                                        <img src={product.picture} alt=" special one" />
+
                                         <h3>{product.name}</h3>
                                         <p>{product.description}</p>
                                         <p>{product.price}</p>
                                         {/* <button> add to cart</button> */}
+
+
                                     </div>
                                 ))}
+
                             </div></>))}
+
                 </div>
+
             </HomeLayout>
+
         </div>
+
+
+
     )
 }
 export default ShopAll;
