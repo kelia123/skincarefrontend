@@ -43,7 +43,7 @@ const Home = () => {
                         <>
                     
                     <div className="bestsellerscontainer">
-                        <img src={bestSellers.photo}></img>
+                        <img src={bestSellers.photo}alt=""></img>
                         <p>{bestSellers.name}</p>
                         <p>{bestSellers.price}</p>
                     </div>

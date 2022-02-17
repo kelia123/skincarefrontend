@@ -42,6 +42,7 @@
 .name{
     font-size: 15px;
     font-weight: 500;
+
 }
 .Total{
     font-weight: 500;
@@ -56,6 +57,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+
 }
 .totalTextTitle{
     margin-right: 10px;

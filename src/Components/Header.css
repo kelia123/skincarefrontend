@@ -114,3 +114,18 @@
     text-decoration: none;
     color: black;
 }
+/* @media screen and (max-width:600px) {
+    .order{
+       flex-direction: column;
+    }
+} */
+@media only screen and (max-width: 900px) {
+    .headerdiv {
+      width: 70px;
+      padding-left: 50px;
+      flex-direction: column;
+    }
+  }
+  .hiddenLinks{
+      display: none;
+}

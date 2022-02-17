@@ -2,12 +2,16 @@ import React from 'react';
 import "./Cart.css";
 import HomeLayout from '../Components/HomeLayout';
 import {Remove,Add} from "@material-ui/icons";
+
+
 const Cart=()=> {
   return(
+
     <HomeLayout>
   <div className="ItemSummary-underliner"></div>
   <h2 style={{textAlign:"center"}}> Your Card !! </h2>
   <div className="Cart-container">
+
      <div className="ItemSummary">
      <h2 className="title"> Item Summary </h2>
          <table className="table">
@@ -18,6 +22,7 @@ const Cart=()=> {
                  <th>Quantity</th>
                  <th>Total</th>
              </tr>
+
              <td>
                  <div className="Itemimage">
                      {/* <image src="/Assets/img/serum1.jpg" layout="fill" objectFit="cover" alt=""/> */}
@@ -30,6 +35,7 @@ const Cart=()=> {
                  <span className="Price"> 5000 FRW </span>
              </td>
              <td>
+=
                  <span className="Quantity">
                 <Remove/> 1 <Add/>
                 </span>
@@ -39,6 +45,7 @@ const Cart=()=> {
              </td>
          </table>
      </div>
+
      <div className="OrderSummary">
         <div className="wrapper">
             <h2 className="title"> Order Summary </h2>
@@ -54,5 +61,6 @@ const Cart=()=> {
   </div>
   </HomeLayout>
   );
+ 
 }
 export default Cart;

@@ -1,7 +1,7 @@
 import React from 'react';
 import "./order.css"
 import SliderTest from "./SliderTest"
-import { Carousel } from 'antd';
+// import { Carousel } from 'antd';
 import HomeLayout from '../Components/HomeLayout';
 
 
@@ -10,13 +10,9 @@ const Order=()=> {
   return (
       <HomeLayout>
 
-          {/* <div className="OrderUnderline"></div> */}
+          <div className="OrderUnderline"></div>
   <div className=" OrderPage">
-      <p style={{ fontSize:"30px"}}>Sign In To View Your Cart</p><br/>
-
-  <div className=" OrderPage">
-
-      <p>Sign In To View Your Cart</p>
+      <p style={{ fontSize:"20px"}}>Sign In To View Your Card </p>
 
       <div className="signin-Order">
           <a href="/signIn"><button> Sign In</button></a>
@@ -25,10 +21,16 @@ const Order=()=> {
           <a href="/shopAll"><button> Shop Now</button></a>
       </div>
 
-             </div>
-         <SliderTest />
+         <p 
+         style={{
+             padding:"30px",
+             color: "black",
+             marginbottom:"5px",
+             marginRight:"10px",
+             fontSize:"20px"}}> You might fill your cart with :</p>
+         <SliderTest/>
   </div>
- 
+   
   </HomeLayout>
 
     );

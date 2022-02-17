@@ -8,14 +8,13 @@ import skinhealApi from "../services/skinhealApi";
 const SignUp = () => {
   const onFinish = (values) => {
     console.log("Received values of form: ", values);
-
-
     skinhealApi.createAccount(values).then((res) => {
       if (!res) {
         return notification.error({ message: "server is down" });
       }
       if (res.status === 200) {
         return notification.success({
+
           message: "Your account has been registered successfully",
         });
       } else {
@@ -131,3 +130,4 @@ const SignUp = () => {
 };
 
 export default SignUp;
+
