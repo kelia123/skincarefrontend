@@ -21,6 +21,7 @@ function SliderTest() {
           <Item>
           <img src="https://images.pexels.com/photos/4210370/pexels-photo-4210370.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" 
             style={{width:"83%",height:"45vh"}}alt=""/>
+            
           </Item>
           <h4 style={{textAlign:"center"}}> Aloe vera soap </h4>
           <h4 style={{textAlign:"center"}}> 4000RWF</h4>
@@ -74,5 +75,6 @@ function SliderTest() {
 }
 
 const rootElement = document.getElementById("root");
-// ReactDOM.render(<SliderTest />, rootElement);
+ReactDOM.render(<SliderTest />, rootElement);
+
 export default SliderTest;
