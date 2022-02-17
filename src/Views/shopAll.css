@@ -3,7 +3,6 @@
     background-attachment:fixed;
 }
 .wallpaper{
-    
     height: 130vh;
     width: 100%;
 }
@@ -12,13 +11,11 @@
     height: 140vh;
     width: 100%;
 }
-
 .products{
-    min-height:250vh;
+    min-height:270vh;
     width:100%;
     color:white;
 }
-
 .products h1{
     color: black;
     margin-top: 120px;
@@ -44,36 +41,34 @@ flex-wrap: wrap;
     width: 23%;
     background-color: rgb(177, 17, 115);
     color: white;
-    height: 40vh;
-    /* margin-top: 150px; */
     margin-left: 110px;
+}.overlay {
     position: relative;
-}
-.container img{
-    width:100%;
-    height: 100%;
+    width: 50%;
+    width: 100%;
+  }
+  .image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: 40vh;
     object-fit: cover;
-}
-.container p{
-    margin-top: 10px;
-    font-size: large;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
     text-align: center;
-    color: black;
-}
-.container h3{
-    text-align: center;
-    color: black;
-
-}
-.container button{
-        margin-top: 10px;
-         float: right;
-        color: black;
-        background-color:  rgba(210, 160, 122, 1) ;
-        height: 5.5vh;
-        border:none;
-        width: 130px;
-        border-radius: 10px;
-        margin-right: 90px;
-}
-
+  }
+  .overlay:hover .image {
+    opacity: 0.7;
+  }
+  .overlay:hover .middle {
+    opacity: 1;
+  }

@@ -5,38 +5,38 @@ import wallpaper from "../Assets/img/images/crop.jpg"
 import products from "../Assets/constants/shop.json"
 
 
-
-const ShopAll=()=>{
-
-    return(
-        <HomeLayout>
- <div className="shop-container">
-
-    <div className="wallpaper"> 
-    <img src={wallpaper} alt="special"/>
-    </div>
-    <div className="products"> 
- <h1> Our collections</h1>
- <div className="bodyScrubs">
-     {/* <h2 className="titles">Body scrubs</h2> */}
-{products.map ((products)=>(
-     <div className="container">
-         {/* <h1>{products.title}</h1> */}
-         <img src={products.picture} alt="special"/>
-         <h3>{products.name}</h3>
-         <p>{products.description}</p>
-         <p>{products.price}</p>
-     </div>
-))}
-
- </div>
-    </div>
-
-
- </div> 
-
- </HomeLayout>
+const ShopAll = () => {
+    return (
+        <div className="shop-container">
+            <HomeLayout>
+                <div className="wallpaper">
+                    <img src={wallpaper}alt="" />
+                </div>
+                <div className="products">
+                    <h1> Our collections</h1>
+                    {products.map((category) => (
+                        <>
+                            <h2 className="titles">{category.title}</h2>
+                            <div className="bodyScrubs">
+                                {category.products.map((product) => (
+                                    <div className="container">
+                                        {/* <h1>{category.title}</h1> */}
+                                        <div className="overlay">
+                                            <img className="image" src={product.picture} alt=""/>
+                                            <div className="middle">
+                                                <div className="text"> add to cart</div>
+                                            </div>
+                                        </div>
+                                        <h3>{product.name}</h3>
+                                        <p>{product.description}</p>
+                                        <p>{product.price}</p>
+                                        {/* <button> add to cart</button> */}
+                                    </div>
+                                ))}
+                            </div></>))}
+                </div>
+            </HomeLayout>
+        </div>
     )
 }
-
 export default ShopAll;

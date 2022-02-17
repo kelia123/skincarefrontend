@@ -1,6 +1,25 @@
+.Slider{
+  overflow: hidden;
+  /* box-shadow: 0 10px 20px; */
+}
 .Card-wrapper{
-    height: 60vh;
+    /* height: 60vh;
     width: 80%;
     flex-wrap: wrap;
-    text-align: right;
+    text-align: right; */
+    object-fit: cover;
+  /* box-shadow: 0 10px 20px; */
+
+}
+.orderButton {
+    border-radius: 10px;
+    border:none;
+    width: 30%;
+    font-size: 10px;
+    background: rgba(210, 160, 122, 1);
+    color:black;
+    text-align: center;
+    height: 5vh;
+    text-decoration: none;
+    cursor: pointer;
 }

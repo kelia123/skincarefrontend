@@ -11,12 +11,14 @@ import ShopAll from "../Views/shopAll";
 import OurStory from "../Views/ourStory";
 
 import MessageReply from "../Views/MessageReply";
-import { Carousel } from "antd";
-import SliderTest from "../Views/SliderTest"
+// import { Carousel } from "antd";
+
 
 //dashboard
 import RegisterProduct from "../Views/Dashboard/registerProduct";
 import DashOrders from "../Views/Dashboard/orders"
+import Products from "../Views/Dashboard/products"
+import Customers from "../Views/Dashboard/Customers";
 
 
 
@@ -28,6 +30,7 @@ const Index=()=>{
 
             <Route exact path="/" element={<Home/>}/>
             <Route exact path="/home" element={<Home/>}/>
+        
             <Route exact path="/Order" element={<Order/>}/>
             <Route exact path="/EmptyCart" element={<EmptyCart/>}/>
             <Route exact path="/Cart" element={<Cart/>}/>
@@ -38,9 +41,13 @@ const Index=()=>{
             <Route exact path="/ContactUs"element={<ContactUs/>}></Route>
             <Route exact path="/MessageReply"element={<MessageReply/>}></Route>
 
+
+
    
             <Route exact path="/registerProducts" element={<RegisterProduct/>}/>
+            <Route exact path="/users" element={<Customers/>}/>
             <Route exact path="/dashOrders" element={<DashOrders/>}/>
+            <Route exact path="/manageProducts"element={<Products/>}></Route>
 
         </Routes>
     )
