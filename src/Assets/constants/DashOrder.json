@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Klaus",
+        "products": " coffee body scrub",
+        "email":"klaus@gmail.com",
+        "telephone": "+250786564323"
+    },
+    {
+        "name": " Uwera",
+        "products": "Shea body butter",
+        "email":"gentox@gmail.com",
+        "telephone": "+250787564343"
+    },
+    {
+        "name": "Sam",
+        "products": "Turmeric vegan soap",
+        "email":"sam@gmail.com",
+        "telephone": "+2507875545434"
+    },
+    {
+        "name": " Carine",
+        "products": " Almond body butter",
+        "email":"muksa@gmail.com",
+        "telephone": "+1274895995"
+    }
+]

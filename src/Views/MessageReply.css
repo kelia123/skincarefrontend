@@ -1,0 +1,10 @@
+.divcontainer{
+    background-color:  rgba(210, 160, 122, 1);
+    width: 100%;
+    height: 70vh;
+}
+
+.divcontainer p{
+    padding-top: 180px;
+    text-align: center;
+}

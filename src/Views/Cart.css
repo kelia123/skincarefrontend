@@ -1,0 +1,71 @@
+.Cart-container{
+  width: 90%;
+  height: 80vh;
+  background: whitesmoke;
+  padding: 10px 0px 0px 30px;
+  margin: 35px 0px 0px 40px ;
+  display: flex;
+}
+.ItemSummary{
+    width: 50%;
+    height: 55vh;
+    background: white;
+    margin: 30px 10px 10px 0px;
+    padding: 20px;
+    border-radius: 20px;
+}
+.ItemSummary-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 7px;
+    /* display: grid; */
+    /* grid-template-columns: 1px 1px 2px ; */
+    
+}
+.ItemSummary-underliner {
+    display: block;
+    margin-top: 2px;
+    border-bottom: 1px solid;
+    color: gainsboro;
+}
+.Order-Summary{
+    width: 40%;
+    height: 40vh;
+    background:white;
+    margin-top: 35px;
+    padding: 10px;
+    border-radius: 20px;
+ 
+}
+.subtotal{
+    display: flex;
+    justify-content: space-between;
+}
+.Order-Summary-button{
+    background: rgba(210, 160, 122, 1);
+}
+
+.Itemimage{
+    display: flex;
+}
+.ItemImg {
+    width: 30%;
+    height: 30vh;
+    background-image: url(../Assets/img/serum1.jpg);
+    background-size: cover;
+    margin-top: 10px;
+}
+.price h1{
+    font-size: 10px;
+    margin-left: 60px;
+    margin-top: 30px;
+}
+.total{
+    margin-left: 90px;
+    /* margin-top: 10px; */
+}
+.total h1{
+    font-size: 10px;
+    margin-top: 30px;
+    margin-left: 30px;
+}

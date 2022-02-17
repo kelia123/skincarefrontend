@@ -1,0 +1,64 @@
+.signupcontainer{
+   height: 100vh;
+   width: 100%;
+   background-color: rgba(210, 160, 122, 1);
+   position: absolute;
+}
+.signup{
+   height: 90vh;
+   width: 42.5%;
+   background-color: white;
+   border-radius: 25px;
+   margin-top: 30px;
+   margin-left: 30.5%;
+}
+.signup h1{
+   font-size: 20px;
+   text-align: center;
+   padding-top: 20px;
+}
+.firstname input{
+   height: 6vh;
+   width: 70%;
+   background-color: rgba(196,196,196,0.5);
+   margin-left: 15%;
+   border-radius:30px;
+   margin-top: 30px;
+   border: none;
+   padding-left: 10px;
+}
+.signup button{
+   margin-left:170px ;
+   width: 30%;
+   height:5vh ;
+   margin-top:40px ;
+   border-radius:30px ;
+   text-align: center; 
+   border: none;
+} 
+.signup button a{
+   text-decoration: none;
+   color: black;
+}
+.pleasesignin a{
+   text-decoration: none;
+   color: black;
+   margin-left: 100px;
+   /* text-align: center; */
+}
+.checkbox{
+   display: flex;
+}
+.checkbox input{
+   width: 10px;
+   height: 4vh;
+   margin-left: 100px;
+   margin-top: 20px;
+}
+.checkbox h2{
+   font-size: 15px;
+   padding-left: 10px;
+   padding-top: 20px;
+   font-weight: lighter;
+
+}
