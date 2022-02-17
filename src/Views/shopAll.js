@@ -4,6 +4,7 @@ import HomeLayout from "../Components/HomeLayout";
 import wallpaper from "../Assets/img/images/crop.jpg"
 import products from "../Assets/constants/shop.json"
 
+
 const ShopAll = () => {
 
     return (
@@ -43,6 +44,8 @@ const ShopAll = () => {
             </HomeLayout>
 
         </div>
+
+
     )
 }
 

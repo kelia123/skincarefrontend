@@ -24,11 +24,11 @@ const Order=()=> {
       <div className="shop-Order">
           <a href="/shopAll"><button> Shop Now</button></a>
       </div>
-         <p style={{padding:"30px",color: "black",marginbottom:"5px",marginRight:"10px"}}></p>
-     
-      
+
+             </div>
+         <SliderTest />
   </div>
- </div> 
+ 
   </HomeLayout>
 
     );
