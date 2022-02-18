@@ -5,7 +5,8 @@
 }
 .ItemSummary{
     flex: 2;
-    background-color: #3333;
+    background-color: white;
+    box-shadow:   2px  2px 2px 2px rgba(128, 128, 128, 0.438);
     width: 50%;
     height: 50vh;
     margin-right: 15px;
@@ -22,12 +23,11 @@
     width: 40%;
 }
 .Itemimage{
-    width: 100px;
-    height: 120px;
+    width: 250px;
+    height: 25vh;
     background-image:url(../Assets/img/images/coconut\ soap.jpg);
     object-fit:cover;
     background-size: cover;
-    border-radius: 5px;
     position: relative;
 }
 .table{
@@ -40,6 +40,7 @@
     margin-left: 100px;
 }
 .name{
+    
     font-size: 15px;
     font-weight: 500;
 }
@@ -50,7 +51,8 @@
 .wrapper{
     width: 90%;
     max-height: 300px;
-    background-color:rgba(27, 27, 27, 0.199);
+    background-color: white;
+    box-shadow:   2px  2px 2px 2px rgba(128, 128, 128, 0.438);
     padding: 50px;
     padding-top: 10px;
     display: flex;
@@ -60,13 +62,29 @@
 .totalTextTitle{
     margin-right: 10px;
 }
-.button{
-    height: 40px;
-    border-radius: 15px;
-    background-color: rgba(210, 160, 122, 1);
-    font-weight: bold;
-    cursor: pointer;
-    margin-top: 20px;
+.payment{
+    padding: 20px;
+    width:90%;
+    height: 22vh;
+    /* background-color: chartreuse; */
+    
+}
+.payment h1{
+font-size: 22px;
+font-weight: 600;
+text-align: center;
+}
+.paymentMode{
+    display: flex;
+ 
+    
+    
+}
+.paymentMode img{
+    margin-top: 10px;
+    height:7vh;
+    width:120px;
+    margin-left: 10px;
 }
 
 

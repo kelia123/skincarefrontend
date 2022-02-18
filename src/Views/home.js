@@ -42,8 +42,15 @@ const Home = () => {
                     {bestSellers.map((bestSellers) => (
                         <>
                     
+                    
                     <div className="bestsellerscontainer">
-                        <img src={bestSellers.photo}></img>
+                    <div className="overlay">
+                        <img className="image" src={bestSellers.photo}/>
+                        <div className="middle">
+                          <div className="text" >add to cart</div>
+                        </div>
+                      </div>
+                        {/* <img src={bestSellers.photo}></img> */}
                         <p>{bestSellers.name}</p>
                         <p>{bestSellers.price}</p>
                     </div>

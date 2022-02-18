@@ -14,6 +14,7 @@
 }
 
 .products{
+  /* background-color: burlywood; */
     min-height:270vh;
     width:100%;
     color:white;
@@ -82,7 +83,7 @@ flex-wrap: wrap;
   }
   
   .text {
-    
+   cursor: pointer;
     background-color: white;
     box-shadow: 1px 1px 3.5px rgba(128, 128, 128, 0.438); 
     color: black;

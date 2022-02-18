@@ -1,11 +1,7 @@
 import React from "react";
 import {Routes, Route} from "react-router-dom";
 import Order from "../Views/order";
-
 import Home from "../Views/home";
-
-
-
 import EmptyCart from "../Views/EmptyCart";
 import Cart from "../Views/Cart"
 import SignUp from"../Views/signup";
@@ -37,7 +33,7 @@ const Index=()=>{
             <Route exact path="/" element={<Home/>}/>
             <Route exact path="/home" element={<Home/>}/>
             <Route exact path="/Order" element={<Order/>}/>
-            <Route exact path="/ " element={<EmptyCart/>}/>
+            <Route exact path="/EmptyCart" element={<EmptyCart/>}/>
             <Route exact path="/Cart" element={<Cart/>}/>
             <Route exact path="/shopAll" element={<ShopAll/>}/>
             <Route path="/ourStory" element={<OurStory/>}/>                                
