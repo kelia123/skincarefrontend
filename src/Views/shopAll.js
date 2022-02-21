@@ -33,7 +33,7 @@ const ShopAll = () => {
                                             </div>
                                         </div>
 
-                                        <img src={product.picture} alt=" special one" />
+                                        
 
                                         <h3>{product.name}</h3>
                                         <p>{product.description}</p>

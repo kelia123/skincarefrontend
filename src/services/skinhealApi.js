@@ -1,4 +1,4 @@
-import { ConfigContext } from "antd/lib/config-provider";
+// import { ConfigContext } from "antd/lib/config-provider";
 import axios from "axios"
 
 const SKIN_HEAL_APIS_URL = "http://localhost:4040";
@@ -35,18 +35,7 @@ class Application {
             console.log(error);
         }
     };
-    async createProduct(data){
-        try{
-            const response = await axios.post(
-                SKIN_HEAL_APIS_URL + "/product/register",
-                data,
-                config
-            );
-            return response;
-        } catch(error){
-            console.log(error.response);
-        }
-    }
+    
     
 }
 export default new Application();

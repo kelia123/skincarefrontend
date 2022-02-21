@@ -4,6 +4,8 @@ import { Space, Table,Drawer,Card,Skeleton,notification } from "antd";
 import { EyeOutlined, EditOutlined, DeleteOutlined } from "@ant-design/icons";
 import SkinHealApis from "../../services/skinhealApi";
 import "antd/dist/antd.css";
+
+
 const column = [
   {
     title: "First Name",
