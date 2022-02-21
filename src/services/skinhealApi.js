@@ -1,7 +1,7 @@
 import { ConfigContext } from "antd/lib/config-provider";
 import axios from "axios"
 
-const SKIN_HEAL_APIS_URL = "http://localhost:4040";
+const SKIN_HEAL_APIS_URL = "https://vegan-skincare.herokuapp.com/";
 
 var config = {
     headers: {
