@@ -12,6 +12,7 @@ var config = {
 class Application {
     async createAccount(data){
         try{
+            
             const response = await axios.post(
                 SKIN_HEAL_APIS_URL + "/user/create",
                 data,
