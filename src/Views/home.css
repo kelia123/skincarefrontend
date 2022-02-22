@@ -76,7 +76,7 @@
 
 }
 .words{
-    background-color: chartreuse;
+    /* background-color: chartreuse; */
     height: 50vh;
     width: 50%;
     margin-left: 80px;
@@ -101,31 +101,52 @@
     display: flex;
 }
 .photo1{
-    height: 60vh;
+    height: 53vh;
     width: 250px;
     background-color: darksalmon;
     margin-left: 50px;
     margin-top: 65px;
     background-image: url(../Assets/img/soap.jpg);
-    background-size: cover;
+    background-size: 100%;
+    background-position: center;
+    transition: 1s;
+    /* cursor: zoom-in; */
+}
+.photo1:hover{
+    background-size: 150%;
+    background-position: center;
 }
 .photo2{
-    height: 45vh;
-    width: 300px;
+    height: 33vh;
+    width: 355px;
     background-color: black;
-    margin-left: -20px;
+    margin-left: -40px;
     margin-top: 35px;
     background-image: url(../Assets/img/bodybutter1.jpg);
-    background-size: cover;
+    background-size: 100%;
+    /* background-position: center; */
+    transition: 1s;
+    /* cursor: zoom-in; */
+}
+.photo2:hover{
+    background-size: 150%;
+    background-position: center;
 }
 .photo3{
-    height: 40vh;
+    height: 35vh;
     width: 250px;
     background-color: darksalmon;
-    margin-left: -280px;
+    margin-left: -340px;
     margin-top: 250px;
     background-image: url(../Assets/img/serum1.jpg);
-    background-size: cover;
+    background-size: 100%;
+    background-position: center;
+    transition: 1s;
+    /* cursor: zoom-in; */
+}
+.photo3:hover{
+    background-size: 150%;
+    background-position: center;
 }
 .bestsellers h1{
     font-size: 15px;
@@ -141,12 +162,11 @@
     width: 300px;
     height: 40vh;
 }
-.bestsellerscontainer img{
-    width: 100%;
-    height: 100%;
-    margin-top: 20px;
-}
+
 .bestsellerscontainer p{
     text-align: center;
     padding-top: 10px;
+}
+.text a{
+    color: black;
 }

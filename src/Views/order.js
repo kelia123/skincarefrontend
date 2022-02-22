@@ -10,7 +10,7 @@ const Order=()=> {
   return (
       <HomeLayout>
 
-          <div className="OrderUnderline"></div>
+          
   <div className=" OrderPage">
       <p style={{ fontSize:"20px"}}>Sign In To View Your Card </p>
 

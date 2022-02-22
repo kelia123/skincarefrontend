@@ -2,6 +2,7 @@ import React from "react";
 import "./Footer.css";
 import { InstagramOutlined } from '@ant-design/icons';
 import { TwitterOutlined } from '@ant-design/icons';
+import { FacebookOutlined } from '@ant-design/icons'
 
 const Footer = () => {
 
@@ -9,10 +10,9 @@ const Footer = () => {
         <div className="footerdiv">
             <div className="footerdivision">
             <div className="footericons">
-                <div className="facebook"></div>
-                <div className="instagram"><InstagramOutlined /></div>
-                <div className="pinterest"></div>
-                <div className="twitter"><TwitterOutlined /></div>
+                <div className="facebook"><a href="https://www.facebook.com/"><FacebookOutlined /></a></div>
+                <div className="instagram"><a href="https://www.instagram.com/"><InstagramOutlined /></a></div>
+                <div className="twitter"><a href="https://www.instagram.com/"><TwitterOutlined /></a></div>
             </div>
             <div className="menufooter">
                 <br/>

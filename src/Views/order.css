@@ -7,12 +7,7 @@
     /* background: cyan; */
     padding: 50px;
 }
-.OrderUnderline{
-    display: block;
-    margin-top: 2px;
-    border-bottom: 1px solid;
-    color: black;
-}
+
 .signin-Order button {
     border-radius: 10px;
     border:none;

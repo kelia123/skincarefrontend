@@ -2,11 +2,16 @@
     margin: 0;
     padding: 0;
 }
+/* .firstdiv{
+    /* border: none; */
+     /* background-color: red;  */
+     /* box-shadow: 0px 0px 0px 1.7px rgba(128, 128, 128, 0.438); */
+
 .header{
     height: 20vh;
-    background-color: white;
+    /* background-color: chartreuse; */
     width: 100%;
-    display: flex;
+    /* display: flex; */
 }
 .menu{
     font-size: 200%;
@@ -14,56 +19,128 @@
     margin-top: 1.5%;
 }
 .logo{
-    width: 60%;
+    width: 50%;
     height: 20vh;
     background-image: url(../Assets/img/logo.png) ;
     background-size: cover;
     background-color: white;
-    margin-left: 27.5%;
+    margin-left: 20%;
 }
 .rightcorner{
     display: flex;
-    background-color: white;
-    margin-left: 20%;
+     background-color: white; 
     /* justify-content: space-evenly; */
     width: 20%;
+    margin-left: 70px;
 }
-.signupdiv{
+/* .rightcorner a{
+    padding-top: 4vh;
+    padding-left: 20px;
+    
+    
+} */
+/* .login{
     background-color: white;
-    height: 5vh;
-    width: 60px;
     margin-top: 5vh;
-    margin-left: -5vh;
 }
-.signupdiv a{
+.login a{
     color: black;
-    text-decoration: none;
-    cursor: auto;
+    cursor: pointer;
+    padding-top: 5vh;
+    margin-left: 30px;
 }
-.signindiv{
-    background-color: white;
-    height: 5vh;
-    width: 60px;
-    margin-top: 5vh;
-    margin-left: 3vh;
-}
-.signindiv a{
+.login a:hover{
+    border-bottom: 2px solid black;
     color: black;
-    text-decoration: none;
-    cursor: auto;
-}
+    cursor: pointer;
+} */
 .order{
     font-size: 200%;
-    margin-left: 3%;
+    margin-left: 4%;
     margin-top: 3vh;
+    /* background-color: chocolate; */
+    height: 8vh;
+    width: 50px;
+    padding-top: 3vh;
+}
+.order a:hover{
+    color: black;
 }
 .navbar{
     display: flex;
-    height: 10vh;
+    height: 8vh;
     width: 100%;
     background-color: white;
+    padding-left: 22%;
+    padding-top: 3vh;
 }
-.homediv{
+.navbar a{
+    color: black;
+    margin-left: 10%;
+    font-family: 'Poppins',sans-serif;
+    font-size: 15px;
+    position: relative;
+    text-decoration: none;
+    /* padding: 0 10px; */
+    
+}
+.navbar a:after{
+    background-color: black;
+    content: "";
+    height: 2px;
+    left: 0;
+    width: 0;
+    bottom: 10px;
+    position: absolute;
+    transition: 0.3s;
+}
+.navbar a:hover{
+    /* border-bottom: 2px solid black; */
+    color: black;
+    cursor: pointer;
+}
+.navbar a:hover:after{
+    width: 100%;
+}
+.login{
+    display: flex;
+    height: 8vh;
+    width: 200px;
+    /* background-color: chartreuse; */
+    padding-left: 5%;
+    padding-top: 4vh;
+    margin-top: 3vh;
+}
+.login a{
+    color: black;
+    margin-left: 10%;
+    font-family: 'Poppins',sans-serif;
+    font-size: 15px;
+    position: relative;
+    text-decoration: none;
+    /* padding: 0 10px; */
+    
+}
+.login a:after{
+    background-color: black;
+    content: "";
+    height: 2px;
+    left: 0;
+    width: 0;
+    bottom: 0px;
+    position: absolute;
+    transition: 0.3s;
+}
+.login a:hover{
+    /* border-bottom: 2px solid black; */
+    color: black;
+    cursor: pointer;
+}
+.login a:hover:after{
+    width: 100%;
+}
+
+/* .homediv{
     margin-left: 27.5%;
     margin-top: 4vh;
 }
@@ -98,17 +175,14 @@
     color: black;
     text-decoration: none;
     cursor: auto;
-}
+} */
 
-.navbar a:hover{
-    cursor: pointer;
-}
-.signindiv a:hover{
+/* .signindiv a:hover{
     cursor: pointer;
 }
 .signupdiv a:hover{
     cursor: pointer;
-}
+} */
 .order a{
     cursor: pointer;
     text-decoration: none;
@@ -126,6 +200,5 @@
       flex-direction: column;
     }
   }
-  .hiddenLinks{
-      display: none;
-}
+
+

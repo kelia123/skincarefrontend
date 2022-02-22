@@ -22,7 +22,6 @@ const SignUp = () => {
       }
     });
   };
-
   return (
     <HomeLayout>
       <div className="signupcontainer">
@@ -105,9 +104,8 @@ const SignUp = () => {
             <Form.Item>
               <Form.Item name="remember" valuePropName="checked" noStyle>
                 <Checkbox> I agree the terms and conditions</Checkbox>
-
-                
               </Form.Item>
+
               <a className="login-form-forgot" href=""></a>
             </Form.Item>
 
@@ -116,9 +114,7 @@ const SignUp = () => {
                 type="primary"
                 htmlType="submit"
                 className="login-form-button"
-
                className="button">
-
                 Sign up
               </Button>
             </Form.Item>
@@ -128,6 +124,5 @@ const SignUp = () => {
     </HomeLayout>
   );
 };
-
 export default SignUp;
 

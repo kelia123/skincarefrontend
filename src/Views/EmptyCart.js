@@ -11,7 +11,7 @@ const EmptyCart=()=> {
       <div className="OrderCart">
         
          
-          <h3 style={{textAlign:"center"}}> Your Cart is Empty!!</h3>
+          <h3 style={{textAlign:"center"}}> Your Cart is Empty</h3>
            <br/>
           <div className="Shop-now-Order">
            <a href="/order"><button> Shop Our Products </button></a>
