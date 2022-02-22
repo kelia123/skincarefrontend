@@ -46,8 +46,35 @@ class Application {
         } catch(error){
             console.log(error.response);
         }
+  }
+  async getAllUsers() {
+    try {
+      const response = await axios.get(
+        SKIN_HEAL_APIS_URL + "/user/all",
+        config
+      );
+      //console.log response
+      return response;
+    } catch (error) {
+      console.log(error);
     }
     
 }
-export default new Application();
 
+async signinAccount(data) {
+  try {
+    const response = await axios.post(
+      SKIN_HEAL_APIS_URL + "/user/login",
+      data,
+      config
+     );
+    // store.set("X-auth-token",response.data.token);
+    return response;
+  } catch (error) {
+    console.log(error);
+    return error.response;
+  }
+}
+
+}
+export default new Application();

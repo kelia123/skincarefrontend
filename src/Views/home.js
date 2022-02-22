@@ -27,8 +27,7 @@ const Home = () => {
                             We have  natural vegan products which  nourish, smoothens and remove dead cells buildups. Indeed,
                             We are big believers that if you focus on skincare you won’t really need make up.
                             Skin heal is dedicated to help you glow in and out.
-                            We have  natural vegan products which  nourish, smoothens and remove dead cells buildups. Indeed,
-                            We are big believers that if you focus on skincare you won’t really need make up.</p>
+                            We have  natural vegan products which  nourish, smoothens and remove dead cells buildups.</p>
                     </div>
                     <div className="photos">
                         <div className="photo1"></div>
@@ -42,8 +41,15 @@ const Home = () => {
                     {bestSellers.map((bestSellers) => (
                         <>
                     
+                    
                     <div className="bestsellerscontainer">
-                        <img src={bestSellers.photo}alt=""></img>
+                    <div className="overlay">
+                        <img className="image" src={bestSellers.photo}/>
+                        <div className="middle">
+                          <div className="text" ><a href="/Cart">add to cart</a></div>
+                        </div>
+                      </div>
+                        {/* <img src={bestSellers.photo}></img> */}
                         <p>{bestSellers.name}</p>
                         <p>{bestSellers.price}</p>
                     </div>

@@ -31,7 +31,7 @@ const Index=()=>{
             <Route exact path="/home" element={<Home/>}/>
         
             <Route exact path="/Order" element={<Order/>}/>
-            <Route exact path="/ " element={<EmptyCart/>}/>
+            <Route exact path="/EmptyCart" element={<EmptyCart/>}/>
             <Route exact path="/Cart" element={<Cart/>}/>
             <Route exact path="/shopAll" element={<ShopAll/>}/>
             <Route path="/ourStory" element={<OurStory/>}/>                                
@@ -46,6 +46,7 @@ const Index=()=>{
             <Route exact path="/registerProducts" element={<RegisterProduct/>}/>
             <Route exact path="/users" element={<Customers/>}/>
             <Route exact path="/dashOrders" element={<DashOrders/>}/>
+            <Route exact path="/dashboard" element={<Statistics/>}/>
             <Route exact path="/statistics" element={<Statistics/>}/>
             <Route exact path="/users"element={<Customers/>}></Route>
             <Route exact path="/manageProducts"element={<Products/>}></Route>

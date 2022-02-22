@@ -1,0 +1,26 @@
+.drawer-container{
+    height: 90vh;
+    width: 100%;
+    /* background-color: chartreuse; */
+}
+.imageSection{
+
+width: 100%;
+    /* background-color: cornflowerblue; */
+}
+.imageSection img{
+    width:100%;
+    height: 55vh;
+    object-fit: cover;
+}
+.imageSection h1{
+    text-align: center;
+}
+.content h2{
+    text-align: left;
+    font-size: 18px;
+    font-weight: 400;
+}
+.button a{
+    color: black;
+}

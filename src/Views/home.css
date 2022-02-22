@@ -76,7 +76,7 @@
 
 }
 .words{
-    background-color: chartreuse;
+    /* background-color: chartreuse; */
     height: 50vh;
     width: 50%;
     margin-left: 80px;
@@ -141,12 +141,11 @@
     width: 300px;
     height: 40vh;
 }
-.bestsellerscontainer img{
-    width: 100%;
-    height: 100%;
-    margin-top: 20px;
-}
+
 .bestsellerscontainer p{
     text-align: center;
     padding-top: 10px;
+}
+.text a{
+    color: black;
 }
