@@ -20,27 +20,43 @@
 }
 .facebook{
     
-    width: 30px;
+    /* width: 30px;
     height: 30px;
     background-image: url(../Assets/img/facebook.jpg);
-    background-size: cover;
+    background-size: cover; */
+    margin-left: 35px;
+    font-size: 22.5px;
+}
+.facebook a{
+    text-decoration: none;
+    color: black;
 }
 .instagram{
     margin-left: 35px;
     font-size: 22.5px;
 }
-.pinterest{
+.instagram a{
+    text-decoration: none;
+    color: black;
+}
+
+/* .pinterest{
     width: 22.5px;
     height: 22.5px;
     background-image: url(../Assets/img/pinterest.png);
     background-size: cover;
     margin-left: 35px;
     margin-top: 3px;
-}
+} */
 .twitter{
     margin-left: 35px;
     font-size: 22.5px;
 }
+.twitter a{
+    text-decoration: none;
+    color: black;
+}
+
 .menufooter{
     width: 35%;
     height: 40vh;

@@ -17,11 +17,11 @@ const SignIn = () => {
         console.log(res.data.data);
         if(res.data.data.role == 'admin'){
           localStorage.setItem("userLogedIn",true);
-          navigate("/customers");
+          navigate("/dashboard");
         }
          else if(res.data.data.role =="user"){
           localStorage.setItem("userLogedIn",true);
-          navigate("/dashOrders");
+          navigate("/shopAll");
         }
         return notification.success({
           message: "You has been loged successfully",
@@ -38,7 +38,8 @@ const SignIn = () => {
       <div className="signincontainer">
         <div className="signin">
           <h1> Login</h1>
-    <Form>
+    <Form
+        onFinish={onFinish}>
       <Form.Item
         label="Email"
         name="email"
@@ -48,7 +49,6 @@ const SignIn = () => {
             message: 'Please input your email!',
           },
         ]}
-        onFinish={onFinish}
       >
         <Input />
       </Form.Item>
@@ -70,8 +70,8 @@ const SignIn = () => {
       </Form.Item>
       <Form.Item
       >
-        <Button type="primary" htmlType="sibmit" className="submit">
-     submit
+        <Button type="primary" htmlType="submit" className="submit">
+     Submit
         </Button>
       </Form.Item>
     </Form>
